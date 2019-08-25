@@ -1,0 +1,14 @@
+Aug 25 19:30:27.752 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 19:30:27.757 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 5742.
+Aug 25 19:30:27.910 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 19:30:27.911 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips 
+Aug 25 19:30:27.912 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips
+Aug 25 19:30:27.913 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-3 
+Aug 25 19:30:42.488 HYPERVISOR: exec_cmd: nio create_udp udp-9367da65-f654-4cb3-9509-7acfc23c73f1 10033 127.0.0.1 10032 
+Aug 25 19:30:42.490 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-9367da65-f654-4cb3-9509-7acfc23c73f1 
+Aug 25 19:30:42.498 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-9367da65-f654-4cb3-9509-7acfc23c73f1 1 
+Aug 25 19:30:44.397 HYPERVISOR: exec_cmd: nio create_udp udp-780fcbf7-f9d0-4872-b727-1021ebe4fa60 10045 192.168.247.128 10001 
+Aug 25 19:30:44.398 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-780fcbf7-f9d0-4872-b727-1021ebe4fa60 
+Aug 25 19:30:44.412 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-780fcbf7-f9d0-4872-b727-1021ebe4fa60 1 
+Aug 25 20:06:54.740 HYPERVISOR: Stopped.
+Aug 25 20:06:54.820 GENERAL: reset done.

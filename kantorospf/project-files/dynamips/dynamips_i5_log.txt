@@ -1,0 +1,54 @@
+Aug 25 19:30:25.793 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 19:30:25.798 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 5732.
+Aug 25 19:30:26.148 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 19:30:26.149 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips 
+Aug 25 19:30:26.150 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips
+Aug 25 19:30:26.151 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\9f8ebfe6-36fc-4e1c-be54-bb95c0cccf19 
+Aug 25 19:30:26.152 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\9f8ebfe6-36fc-4e1c-be54-bb95c0cccf19
+Aug 25 19:30:26.152 HYPERVISOR: exec_cmd: vm create DHCP_SERVER_BELIDA 5 c3600 
+Aug 25 19:30:26.159 VM: VM DHCP_SERVER_BELIDA created.
+Aug 25 19:30:26.160 HYPERVISOR: exec_cmd: vm set_con_tcp_port DHCP_SERVER_BELIDA 5030 
+Aug 25 19:30:26.160 HYPERVISOR: exec_cmd: c3600 get_mac_addr DHCP_SERVER_BELIDA 
+Aug 25 19:30:26.161 HYPERVISOR: exec_cmd: c3600 set_chassis DHCP_SERVER_BELIDA 3660 
+Aug 25 19:30:26.162 HYPERVISOR: exec_cmd: vm set_disk0 DHCP_SERVER_BELIDA 12 
+Aug 25 19:30:26.163 HYPERVISOR: exec_cmd: vm set_exec_area DHCP_SERVER_BELIDA 64 
+Aug 25 19:30:26.164 HYPERVISOR: exec_cmd: vm get_status DHCP_SERVER_BELIDA 
+Aug 25 19:30:26.164 HYPERVISOR: exec_cmd: vm set_idle_pc DHCP_SERVER_BELIDA 0x605f0ccc 
+Aug 25 19:30:26.168 HYPERVISOR: exec_cmd: vm set_ios DHCP_SERVER_BELIDA C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 25 19:30:26.169 HYPERVISOR: exec_cmd: c3600 set_mac_addr DHCP_SERVER_BELIDA cc05.6ac0.0000 
+Aug 25 19:30:26.170 HYPERVISOR: exec_cmd: vm set_nvram DHCP_SERVER_BELIDA 256 
+Aug 25 19:30:26.171 HYPERVISOR: exec_cmd: vm set_ram DHCP_SERVER_BELIDA 192 
+Aug 25 19:30:26.173 HYPERVISOR: exec_cmd: vm get_status DHCP_SERVER_BELIDA 
+Aug 25 19:30:26.174 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP_SERVER_BELIDA 1 0 NM-16ESW 
+Aug 25 19:30:26.175 HYPERVISOR: exec_cmd: vm get_status DHCP_SERVER_BELIDA 
+Aug 25 19:30:26.175 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP_SERVER_BELIDA 2 0 NM-1FE-TX 
+Aug 25 19:30:26.176 HYPERVISOR: exec_cmd: vm get_status DHCP_SERVER_BELIDA 
+Aug 25 19:30:26.177 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP_SERVER_BELIDA 3 0 NM-1FE-TX 
+Aug 25 19:30:26.179 HYPERVISOR: exec_cmd: vm get_status DHCP_SERVER_BELIDA 
+Aug 25 19:30:26.180 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP_SERVER_BELIDA 4 0 NM-1FE-TX 
+Aug 25 19:30:42.628 HYPERVISOR: exec_cmd: nio create_udp udp-f669a5fd-0911-49d1-8abb-28454e6d484e 10038 127.0.0.1 10039 
+Aug 25 19:30:42.907 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DHCP_SERVER_BELIDA 0 0 udp-f669a5fd-0911-49d1-8abb-28454e6d484e 
+Aug 25 19:30:42.908 HYPERVISOR: exec_cmd: vm get_status DHCP_SERVER_BELIDA 
+Aug 25 19:38:19.753 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Aug 25 19:38:19.759 VM: VM Ghost created.
+Aug 25 19:38:19.759 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 25 19:38:19.760 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Aug 25 19:38:19.761 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\c3660-a3jk9s-mz.124-19.image-192.ghost' 
+Aug 25 19:38:19.761 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Aug 25 19:38:19.762 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 25 19:38:19.764 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Aug 25 19:38:19.764 HYPERVISOR: exec_cmd: vm start Ghost 
+Aug 25 19:38:20.033 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Aug 25 19:38:20.264 VM: VM Ghost shutdown.
+Aug 25 19:38:20.264 VM: VM Ghost destroyed.
+Aug 25 19:38:20.316 HYPERVISOR: exec_cmd: vm get_status DHCP_SERVER_BELIDA 
+Aug 25 19:38:20.318 HYPERVISOR: exec_cmd: vm set_config DHCP_SERVER_BELIDA configs\i5_startup-config.cfg 
+Aug 25 19:38:20.319 HYPERVISOR: exec_cmd: vm start DHCP_SERVER_BELIDA 
+Aug 25 19:38:57.046 HYPERVISOR: exec_cmd: vm extract_config DHCP_SERVER_BELIDA 
+Aug 25 20:06:10.385 HYPERVISOR: exec_cmd: vm get_status DHCP_SERVER_BELIDA 
+Aug 25 20:06:10.388 HYPERVISOR: exec_cmd: vm stop DHCP_SERVER_BELIDA 
+Aug 25 20:06:10.832 VM: VM DHCP_SERVER_BELIDA shutdown.
+Aug 25 20:06:10.836 HYPERVISOR: exec_cmd: vm extract_config DHCP_SERVER_BELIDA 
+Aug 25 20:06:54.740 HYPERVISOR: Stopped.
+Aug 25 20:06:54.740 VM: VM DHCP_SERVER_BELIDA destroyed.
+Aug 25 20:06:54.764 GENERAL: reset done.

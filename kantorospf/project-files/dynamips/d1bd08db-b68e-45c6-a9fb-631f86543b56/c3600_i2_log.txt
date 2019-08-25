@@ -1,0 +1,1070 @@
+Aug 25 19:38:03.651 VTTY: Console port: waiting connection on tcp port 5027 for protocol IPv4 (FD 11)
+Aug 25 19:38:03.773 disk0: C/H/S settings = 192/4/32
+Aug 25 19:38:04.956 C3600_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x605f0ccc,JIT on)
+Aug 25 19:38:04.956 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Aug 25 19:38:05.034 ROM: Microcode has started.
+Aug 25 19:38:05.040 ROM: trying to read bootvar 'WARM_REBOOT'
+Aug 25 19:38:05.418 CPU0: IO_FPGA: read from unknown addr 0x20018, pc=0x605f6640 (size=1)
+Aug 25 19:38:05.418 CPU0: IO_FPGA: write to unknown addr 0x20018, value=0x0, pc=0x605f6650 (size=1)
+Aug 25 19:38:05.418 ROM: unhandled syscall 0x00000047 at pc=0x60569b04 (a1=0x1e830000,a2=0x1e820000,a3=0x00000000)
+Aug 25 19:38:05.890 ROM: trying to read bootvar 'RANDOM_NUM'
+Aug 25 19:38:05.985 CPU0: PCI: read request for device 'gt64120' at pc=0x60603ce8: bus=0,device=0,function=0,reg=0x08
+Aug 25 19:38:05.985 CPU0: PCI: read request for device 'gt64120' at pc=0x60603f34: bus=0,device=0,function=0,reg=0x00
+Aug 25 19:38:05.985 CPU0: PCI: read request for device 'gt64120' at pc=0x60603f38: bus=0,device=0,function=0,reg=0x00
+Aug 25 19:38:05.985 CPU0: PCI: read request for device 'gt64120' at pc=0x60603ce8: bus=0,device=0,function=0,reg=0x08
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000000) for device 'gt64120' at pc=0x60603e30: bus=0,device=0,function=0,reg=0x10
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000000) for device 'gt64120' at pc=0x60603e34: bus=0,device=0,function=0,reg=0x10
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000000) for device 'gt64120' at pc=0x60603e30: bus=0,device=0,function=0,reg=0x90
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000000) for device 'gt64120' at pc=0x60603e34: bus=0,device=0,function=0,reg=0x90
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x10000000) for device 'gt64120' at pc=0x60603e30: bus=0,device=0,function=0,reg=0x14
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x10000000) for device 'gt64120' at pc=0x60603e34: bus=0,device=0,function=0,reg=0x14
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x10000000) for device 'gt64120' at pc=0x60603e30: bus=0,device=0,function=0,reg=0x94
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x10000000) for device 'gt64120' at pc=0x60603e34: bus=0,device=0,function=0,reg=0x94
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x14000000) for device 'gt64120' at pc=0x60603e30: bus=0,device=0,function=0,reg=0x20
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x14000000) for device 'gt64120' at pc=0x60603e34: bus=0,device=0,function=0,reg=0x20
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x14000000) for device 'gt64120' at pc=0x60603e30: bus=0,device=0,function=0,reg=0xa0
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x14000000) for device 'gt64120' at pc=0x60603e34: bus=0,device=0,function=0,reg=0xa0
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000146) for device 'gt64120' at pc=0x60603e30: bus=0,device=0,function=0,reg=0x04
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000146) for device 'gt64120' at pc=0x60603e34: bus=0,device=0,function=0,reg=0x04
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000146) for device 'gt64120' at pc=0x60603e30: bus=0,device=0,function=0,reg=0x84
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000146) for device 'gt64120' at pc=0x60603e34: bus=0,device=0,function=0,reg=0x84
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000007) for device 'gt64120' at pc=0x60603e30: bus=0,device=0,function=0,reg=0x0c
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000007) for device 'gt64120' at pc=0x60603e34: bus=0,device=0,function=0,reg=0x0c
+Aug 25 19:38:05.986 CPU0: PCI: write request (data=0x00000007) for device 'gt64120' at pc=0x60603e30: bus=0,device=0,function=0,reg=0x8c
+Aug 25 19:38:05.987 CPU0: PCI: write request (data=0x00000007) for device 'gt64120' at pc=0x60603e34: bus=0,device=0,function=0,reg=0x8c
+Aug 25 19:38:05.987 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60603e30 (bus=0,device=0,function=1,reg=0x10).
+Aug 25 19:38:05.987 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60603e34 (bus=0,device=0,function=1,reg=0x10).
+Aug 25 19:38:05.988 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60603e30 (bus=0,device=0,function=1,reg=0x90).
+Aug 25 19:38:05.988 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60603e34 (bus=0,device=0,function=1,reg=0x90).
+Aug 25 19:38:05.988 CPU0: PCI: write request (data=0xd0000000) for unknown device at pc=0x60603e30 (bus=0,device=0,function=1,reg=0x14).
+Aug 25 19:38:05.988 CPU0: PCI: write request (data=0xd0000000) for unknown device at pc=0x60603e34 (bus=0,device=0,function=1,reg=0x14).
+Aug 25 19:38:05.988 CPU0: PCI: write request (data=0xd0000000) for unknown device at pc=0x60603e30 (bus=0,device=0,function=1,reg=0x94).
+Aug 25 19:38:05.988 CPU0: PCI: write request (data=0xd0000000) for unknown device at pc=0x60603e34 (bus=0,device=0,function=1,reg=0x94).
+Aug 25 19:38:05.988 CPU0: PCI: write request (data=0x000000c0) for unknown device at pc=0x60603e30 (bus=0,device=0,function=1,reg=0x1c).
+Aug 25 19:38:05.988 CPU0: PCI: write request (data=0x000000c0) for unknown device at pc=0x60603e34 (bus=0,device=0,function=1,reg=0x1c).
+Aug 25 19:38:05.988 CPU0: PCI: write request (data=0x000000c0) for unknown device at pc=0x60603e30 (bus=0,device=0,function=1,reg=0x9c).
+Aug 25 19:38:05.988 CPU0: PCI: write request (data=0x000000c0) for unknown device at pc=0x60603e34 (bus=0,device=0,function=1,reg=0x9c).
+Aug 25 19:38:05.989 CPU0: IO_FPGA: write to unknown addr 0x10002, value=0x808, pc=0x60601940 (size=2)
+Aug 25 19:38:05.989 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=2,function=0,reg=0x00
+Aug 25 19:38:05.989 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=2,function=0,reg=0x00
+Aug 25 19:38:05.990 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=2,function=0,reg=0x40
+Aug 25 19:38:05.990 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=2,function=0,reg=0x40
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x04
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x04
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x0c
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x0c
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x00050200) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x18
+Aug 25 19:38:05.990 PCI: PCI bridge 0,2,0 -> pri: 00, sec: 02, sub: 05
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x00050200) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x18
+Aug 25 19:38:05.990 PCI: PCI bridge 0,2,0 -> pri: 00, sec: 02, sub: 05
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x02801f00) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x1c
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x02801f00) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x1c
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x4d704d00) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x20
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x4d704d00) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x20
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x00014d01) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x24
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x00014d01) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x24
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x30
+Aug 25 19:38:05.990 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x30
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x40
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x40
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x64
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x64
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x68
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x68
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x04
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x04
+Aug 25 19:38:05.991 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=7,function=0,reg=0x00
+Aug 25 19:38:05.991 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=7,function=0,reg=0x00
+Aug 25 19:38:05.991 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=7,function=0,reg=0x40
+Aug 25 19:38:05.991 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=7,function=0,reg=0x40
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x04
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x04
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x0c
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x0c
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00191600) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x18
+Aug 25 19:38:05.991 PCI: PCI bridge 0,7,0 -> pri: 00, sec: 22, sub: 25
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00191600) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x18
+Aug 25 19:38:05.991 PCI: PCI bridge 0,7,0 -> pri: 00, sec: 22, sub: 25
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x02805f40) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x1c
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x02805f40) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x1c
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x4e704e00) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x20
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x4e704e00) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x20
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00014e01) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x24
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00014e01) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x24
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x30
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x30
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x40
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x40
+Aug 25 19:38:05.991 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x64
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x64
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x68
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x68
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x04
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x04
+Aug 25 19:38:05.992 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=3,function=0,reg=0x00
+Aug 25 19:38:05.992 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=3,function=0,reg=0x00
+Aug 25 19:38:05.992 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=3,function=0,reg=0x40
+Aug 25 19:38:05.992 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=3,function=0,reg=0x40
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x04
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x04
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x0c
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x0c
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00090600) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x18
+Aug 25 19:38:05.992 PCI: PCI bridge 0,3,0 -> pri: 00, sec: 06, sub: 09
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00090600) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x18
+Aug 25 19:38:05.992 PCI: PCI bridge 0,3,0 -> pri: 00, sec: 06, sub: 09
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x02803f20) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x1c
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x02803f20) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x1c
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x4df04d80) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x20
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x4df04d80) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x20
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00014d81) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x24
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00014d81) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x24
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x30
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x30
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:05.992 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x40
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x40
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x64
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x64
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x68
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x68
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x04
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x04
+Aug 25 19:38:05.993 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=6,function=0,reg=0x00
+Aug 25 19:38:05.993 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=6,function=0,reg=0x00
+Aug 25 19:38:05.993 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=6,function=0,reg=0x40
+Aug 25 19:38:05.993 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=6,function=0,reg=0x40
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x04
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x04
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x0c
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x0c
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00151200) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x18
+Aug 25 19:38:05.993 PCI: PCI bridge 0,6,0 -> pri: 00, sec: 18, sub: 21
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00151200) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x18
+Aug 25 19:38:05.993 PCI: PCI bridge 0,6,0 -> pri: 00, sec: 18, sub: 21
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x02807f60) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x1c
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x02807f60) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x1c
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x4ef04e80) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x20
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x4ef04e80) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x20
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00014e81) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x24
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00014e81) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x24
+Aug 25 19:38:05.993 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x30
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x30
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x40
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x40
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x64
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x64
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x68
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x68
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x04
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x04
+Aug 25 19:38:05.994 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=4,function=0,reg=0x00
+Aug 25 19:38:05.994 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=4,function=0,reg=0x00
+Aug 25 19:38:05.994 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=4,function=0,reg=0x40
+Aug 25 19:38:05.994 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=4,function=0,reg=0x40
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x04
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x04
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x0c
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x0c
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x000d0a00) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x18
+Aug 25 19:38:05.994 PCI: PCI bridge 0,4,0 -> pri: 00, sec: 10, sub: 13
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x000d0a00) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x18
+Aug 25 19:38:05.994 PCI: PCI bridge 0,4,0 -> pri: 00, sec: 10, sub: 13
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x02809f80) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x1c
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x02809f80) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x1c
+Aug 25 19:38:05.994 CPU0: PCI: write request (data=0x4f704f00) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x20
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x4f704f00) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x20
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00014f01) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x24
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00014f01) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x24
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x30
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x30
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x3c
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x3c
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x40
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x40
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x64
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x64
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x68
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x68
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e10: bus=0,device=4,function=0,reg=0x04
+Aug 25 19:38:05.995 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e1c: bus=0,device=4,function=0,reg=0x04
+Aug 25 19:38:05.995 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=5,function=0,reg=0x00
+Aug 25 19:38:05.996 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=5,function=0,reg=0x00
+Aug 25 19:38:05.996 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=5,function=0,reg=0x40
+Aug 25 19:38:05.996 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=5,function=0,reg=0x40
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x04
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x04
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x0c
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x0c
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00110e00) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x18
+Aug 25 19:38:05.996 PCI: PCI bridge 0,5,0 -> pri: 00, sec: 14, sub: 17
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00110e00) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x18
+Aug 25 19:38:05.996 PCI: PCI bridge 0,5,0 -> pri: 00, sec: 14, sub: 17
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x0280bfa0) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x1c
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x0280bfa0) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x1c
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x4ff04f80) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x20
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x4ff04f80) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x20
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00014f81) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x24
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00014f81) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x24
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x30
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x30
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x3c
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x3c
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x40
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x40
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x64
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x64
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x68
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x68
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e10: bus=0,device=5,function=0,reg=0x04
+Aug 25 19:38:05.996 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e1c: bus=0,device=5,function=0,reg=0x04
+Aug 25 19:38:05.997 CPU0: PCI: read request for device 'clpd6729' at pc=0x60603f34: bus=0,device=20,function=0,reg=0x00
+Aug 25 19:38:05.997 CPU0: PCI: read request for device 'clpd6729' at pc=0x60603f38: bus=0,device=20,function=0,reg=0x00
+Aug 25 19:38:05.997 CPU0: PCI: write request (data=0x000001c3) for device 'clpd6729' at pc=0x60603df0: bus=0,device=20,function=0,reg=0x04
+Aug 25 19:38:05.997 CPU0: PCI: write request (data=0x000001c3) for device 'clpd6729' at pc=0x60603dfc: bus=0,device=20,function=0,reg=0x04
+Aug 25 19:38:05.997 CPU0: PCI: write request (data=0x00004403) for device 'clpd6729' at pc=0x60603df0: bus=0,device=20,function=0,reg=0x10
+Aug 25 19:38:05.997 CPU0: PCI: write request (data=0x00004403) for device 'clpd6729' at pc=0x60603dfc: bus=0,device=20,function=0,reg=0x10
+Aug 25 19:38:06.001 ROM: unhandled syscall 0x0000003e at pc=0x60569b04 (a1=0x00002580,a2=0x00002580,a3=0x641f0000)
+Aug 25 19:38:06.002 ROM: unhandled syscall 0x00000047 at pc=0x60569b04 (a1=0x0000c100,a2=0x00000000,a3=0x641f0000)
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'BOOT'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'CONFIG_FILE'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'BOOTLDR'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'RSHELF'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'DSHELF'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'DSHELFINFO'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'RESET_COUNTER'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'CHRG_ID'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'SLOTCACHE'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'OVERTEMP'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'DIAG'
+Aug 25 19:38:08.103 ROM: trying to read bootvar 'WARM_REBOOT'
+Aug 25 19:38:09.335 bootflash: flash_cmd(0): command 0xc3 not implemented
+Aug 25 19:38:09.335 bootflash: flash_cmd(1): command 0xc3 not implemented
+Aug 25 19:38:09.335 bootflash: flash_cmd(2): command 0xc3 not implemented
+Aug 25 19:38:09.335 bootflash: flash_cmd(3): command 0xc3 not implemented
+Aug 25 19:38:09.543 CPU0: CLPD6729: ext reg index 0x05 at pc=0x6060a9b8
+Aug 25 19:38:09.543 CPU0: CLPD6729: ext reg index 0x06 at pc=0x6060a9b8
+Aug 25 19:38:09.543 CPU0: CLPD6729: ext reg index 0x07 at pc=0x6060a9b8
+Aug 25 19:38:09.663 CPU0: MTS: read  access to undefined address 0x41f00002 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.663 CPU0: MTS: read  access to undefined address 0x41f00000 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.663 CPU0: MTS: read  access to undefined address 0x41f00006 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00004 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0000a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00008 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0000e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0000c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00012 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00010 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00016 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00014 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0001a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00018 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0001e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0001c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00022 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00020 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00026 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00024 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0002a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00028 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0002e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0002c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00032 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00030 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00036 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00034 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0003a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00038 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0003e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0003c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00042 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00040 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00046 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00044 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0004a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00048 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0004e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0004c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00052 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00050 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00056 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f00054 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.664 CPU0: MTS: read  access to undefined address 0x41f0005a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00058 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0005e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0005c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00062 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00060 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00066 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00064 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0006a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00068 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0006e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0006c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00072 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00070 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00076 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00074 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0007a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00078 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0007e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0007c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00082 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00080 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00086 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00084 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0008a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00088 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0008e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0008c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00092 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00090 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00096 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00094 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0009a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f00098 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0009e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f0009c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000a2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000a0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000a6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000a4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000aa at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000a8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000ae at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000ac at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000b2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000b0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000b6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000b4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.665 CPU0: MTS: read  access to undefined address 0x41f000ba at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000b8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000be at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000bc at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000c2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000c0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000c6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000c4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000ca at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000c8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000ce at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000cc at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000d2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000d0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000d6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000d4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000da at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000d8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000de at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000dc at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000e2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000e0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000e6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000e4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000ea at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000e8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000ee at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000ec at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000f2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000f0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000f6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000f4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000fa at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000f8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000fe at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f000fc at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00102 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00100 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00106 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00104 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f0010a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00108 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f0010e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f0010c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00112 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00110 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00116 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00114 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f0011a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00118 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f0011e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f0011c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.666 CPU0: MTS: read  access to undefined address 0x41f00122 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.667 CPU0: MTS: read  access to undefined address 0x41f00120 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.667 CPU0: MTS: read  access to undefined address 0x41f00126 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.667 CPU0: MTS: read  access to undefined address 0x41f00124 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.667 CPU0: MTS: read  access to undefined address 0x41f0012a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.667 CPU0: MTS: read  access to undefined address 0x41f00128 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0012e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0012c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00132 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00130 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00136 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00134 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0013a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00138 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0013e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0013c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00142 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00140 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00146 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00144 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0014a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00148 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0014e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0014c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00152 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00150 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00156 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00154 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0015a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00158 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0015e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0015c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00162 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00160 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00166 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00164 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0016a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00168 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0016e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0016c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00172 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00170 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00176 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00174 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0017a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00178 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0017e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0017c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00182 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00180 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00186 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00184 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0018a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f00188 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0018e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.668 CPU0: MTS: read  access to undefined address 0x41f0018c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00002 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00000 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00006 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00004 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0000a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00008 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0000e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0000c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00012 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00010 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00016 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00014 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0001a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00018 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0001e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0001c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00022 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00020 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00026 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00024 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0002a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00028 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0002e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0002c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00032 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00030 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00036 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00034 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0003a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00038 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0003e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0003c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00042 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00040 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00046 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00044 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0004a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00048 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0004e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0004c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00052 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00050 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00056 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00054 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0005a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00058 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0005e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f0005c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00062 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00060 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.669 CPU0: MTS: read  access to undefined address 0x41f00066 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00064 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0006a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00068 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0006e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0006c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00072 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00070 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00076 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00074 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0007a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00078 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0007e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0007c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00082 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00080 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00086 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00084 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0008a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00088 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0008e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0008c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00092 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00090 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00096 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00094 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0009a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f00098 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0009e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f0009c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000a2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000a0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000a6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000a4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000aa at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000a8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000ae at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000ac at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000b2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000b0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000b6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000b4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000ba at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000b8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000be at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000bc at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.670 CPU0: MTS: read  access to undefined address 0x41f000c2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000c0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000c6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000c4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000ca at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000c8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000ce at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000cc at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000d2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000d0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000d6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000d4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000da at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000d8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000de at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000dc at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000e2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000e0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000e6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000e4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000ea at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000e8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000ee at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000ec at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000f2 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000f0 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000f6 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000f4 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000fa at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000f8 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000fe at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f000fc at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f00102 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f00100 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f00106 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f00104 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f0010a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f00108 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f0010e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f0010c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f00112 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f00110 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f00116 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f00114 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.671 CPU0: MTS: read  access to undefined address 0x41f0011a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00118 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0011e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0011c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00122 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00120 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00126 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00124 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0012a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00128 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0012e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0012c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00132 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00130 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00136 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00134 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0013a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00138 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0013e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0013c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00142 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00140 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00146 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00144 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0014a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00148 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0014e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0014c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00152 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00150 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00156 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00154 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0015a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00158 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0015e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0015c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00162 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00160 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00166 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00164 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0016a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00168 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0016e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0016c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00172 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00170 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00176 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f00174 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.672 CPU0: MTS: read  access to undefined address 0x41f0017a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f00178 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f0017e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f0017c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f00182 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f00180 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f00186 at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f00184 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f0018a at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f00188 at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f0018e at pc=0x6060a228 (size=2)
+Aug 25 19:38:09.673 CPU0: MTS: read  access to undefined address 0x41f0018c at pc=0x6060a234 (size=2)
+Aug 25 19:38:09.999 CPU0: CLPD6729: ext reg index 0x05 at pc=0x6060a9b8
+Aug 25 19:38:09.999 CPU0: CLPD6729: ext reg index 0x06 at pc=0x6060a9b8
+Aug 25 19:38:09.999 CPU0: CLPD6729: ext reg index 0x07 at pc=0x6060a9b8
+Aug 25 19:38:10.932 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:10.932 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:10.932 CPU0: PCI: write request (data=0x00400000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:10.932 CPU0: PCI: write request (data=0x00400000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:10.932 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:10.932 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:10.932 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:10.932 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:11.256 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:11.256 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:11.256 CPU0: PCI: write request (data=0x00400000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:11.256 CPU0: PCI: write request (data=0x00400000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:11.257 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:11.257 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:11.257 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:11.257 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:11.563 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:11.563 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:11.563 CPU0: PCI: write request (data=0x00400000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:11.563 CPU0: PCI: write request (data=0x00400000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:11.564 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:11.564 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:11.564 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:11.564 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:11.860 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:11.860 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:11.860 CPU0: PCI: write request (data=0x00400000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:11.860 CPU0: PCI: write request (data=0x00400000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:11.861 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:11.861 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:11.861 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:11.861 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:12.129 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=2,function=0,reg=0x00
+Aug 25 19:38:12.129 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=2,function=0,reg=0x00
+Aug 25 19:38:12.129 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=2,function=0,reg=0x40
+Aug 25 19:38:12.129 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=2,function=0,reg=0x40
+Aug 25 19:38:12.129 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x04
+Aug 25 19:38:12.129 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x04
+Aug 25 19:38:12.129 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x0c
+Aug 25 19:38:12.129 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x0c
+Aug 25 19:38:12.129 CPU0: PCI: write request (data=0x00050200) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x18
+Aug 25 19:38:12.129 PCI: PCI bridge 0,2,0 -> pri: 00, sec: 02, sub: 05
+Aug 25 19:38:12.129 CPU0: PCI: write request (data=0x00050200) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x18
+Aug 25 19:38:12.129 PCI: PCI bridge 0,2,0 -> pri: 00, sec: 02, sub: 05
+Aug 25 19:38:12.129 CPU0: PCI: write request (data=0x02801f00) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x1c
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x02801f00) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x1c
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x4d704d00) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x20
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x4d704d00) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x20
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00014d01) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x24
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00014d01) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x24
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x30
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x30
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x3c
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x40
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x40
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x64
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x64
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x68
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x68
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e10: bus=0,device=2,function=0,reg=0x04
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e1c: bus=0,device=2,function=0,reg=0x04
+Aug 25 19:38:12.130 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=7,function=0,reg=0x00
+Aug 25 19:38:12.130 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=7,function=0,reg=0x00
+Aug 25 19:38:12.130 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=7,function=0,reg=0x40
+Aug 25 19:38:12.130 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=7,function=0,reg=0x40
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x04
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x04
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x0c
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x0c
+Aug 25 19:38:12.130 CPU0: PCI: write request (data=0x00191600) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x18
+Aug 25 19:38:12.130 PCI: PCI bridge 0,7,0 -> pri: 00, sec: 22, sub: 25
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00191600) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x18
+Aug 25 19:38:12.131 PCI: PCI bridge 0,7,0 -> pri: 00, sec: 22, sub: 25
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x02805f40) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x1c
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x02805f40) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x1c
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x4e704e00) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x20
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x4e704e00) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x20
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00014e01) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x24
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00014e01) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x24
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x30
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x30
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x3c
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x40
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x40
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x64
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x64
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x68
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x68
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e10: bus=0,device=7,function=0,reg=0x04
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e1c: bus=0,device=7,function=0,reg=0x04
+Aug 25 19:38:12.131 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=3,function=0,reg=0x00
+Aug 25 19:38:12.131 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=3,function=0,reg=0x00
+Aug 25 19:38:12.131 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=3,function=0,reg=0x40
+Aug 25 19:38:12.131 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=3,function=0,reg=0x40
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x04
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x04
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x0c
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x0c
+Aug 25 19:38:12.131 CPU0: PCI: write request (data=0x00090600) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x18
+Aug 25 19:38:12.132 PCI: PCI bridge 0,3,0 -> pri: 00, sec: 06, sub: 09
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00090600) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x18
+Aug 25 19:38:12.132 PCI: PCI bridge 0,3,0 -> pri: 00, sec: 06, sub: 09
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x02803f20) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x1c
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x02803f20) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x1c
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x4df04d80) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x20
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x4df04d80) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x20
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00014d81) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x24
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00014d81) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x24
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x30
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x30
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x3c
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x40
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x40
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x64
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x64
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x68
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x68
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e10: bus=0,device=3,function=0,reg=0x04
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e1c: bus=0,device=3,function=0,reg=0x04
+Aug 25 19:38:12.132 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=6,function=0,reg=0x00
+Aug 25 19:38:12.132 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=6,function=0,reg=0x00
+Aug 25 19:38:12.132 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f44: bus=0,device=6,function=0,reg=0x40
+Aug 25 19:38:12.132 CPU0: PCI: read request for device 'dec21152' at pc=0x60603f48: bus=0,device=6,function=0,reg=0x40
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x04
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0xffff0000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x04
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x0c
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x0000f810) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x0c
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00151200) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x18
+Aug 25 19:38:12.132 PCI: PCI bridge 0,6,0 -> pri: 00, sec: 18, sub: 21
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x00151200) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x18
+Aug 25 19:38:12.132 PCI: PCI bridge 0,6,0 -> pri: 00, sec: 18, sub: 21
+Aug 25 19:38:12.132 CPU0: PCI: write request (data=0x02807f60) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x1c
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x02807f60) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x1c
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x4ef04e80) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x20
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x4ef04e80) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x20
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00014e81) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x24
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00014e81) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x24
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x30
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00200020) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x30
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x03000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x3c
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x40
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x40
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x64
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x64
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x68
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00000000) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x68
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e10: bus=0,device=6,function=0,reg=0x04
+Aug 25 19:38:12.133 CPU0: PCI: write request (data=0x00000007) for device 'dec21152' at pc=0x60603e1c: bus=0,device=6,function=0,reg=0x04
+Aug 25 19:38:12.638 CPU0: IO_FPGA: write to unknown addr 0x20012, value=0x1f, pc=0x6060f70c (size=1)
+Aug 25 19:38:12.638 CPU0: IO_FPGA: write to unknown addr 0x20012, value=0x0, pc=0x6060f71c (size=1)
+Aug 25 19:38:12.638 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f34: bus=0,device=6,function=0,reg=0x00
+Aug 25 19:38:12.638 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f38: bus=0,device=6,function=0,reg=0x00
+Aug 25 19:38:12.639 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f34: bus=0,device=6,function=0,reg=0x00
+Aug 25 19:38:12.639 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f38: bus=0,device=6,function=0,reg=0x00
+Aug 25 19:38:12.639 CPU0: PCI: write request (data=0x48000000) for device 'Leopard-2FE(0)' at pc=0x60603df0: bus=0,device=6,function=0,reg=0x14
+Aug 25 19:38:12.640 Leopard-2FE(0): registers are mapped at 0x48000000
+Aug 25 19:38:12.640 CPU0: PCI: write request (data=0x48000000) for device 'Leopard-2FE(0)' at pc=0x60603dfc: bus=0,device=6,function=0,reg=0x14
+Aug 25 19:38:12.640 Leopard-2FE(0): registers are mapped at 0x48000000
+Aug 25 19:38:12.640 CPU0: PCI: write request (data=0x00000006) for device 'Leopard-2FE(0)' at pc=0x60603df0: bus=0,device=6,function=0,reg=0x04
+Aug 25 19:38:12.640 CPU0: PCI: write request (data=0x00000006) for device 'Leopard-2FE(0)' at pc=0x60603dfc: bus=0,device=6,function=0,reg=0x04
+Aug 25 19:38:12.640 CPU0: PCI: write request (data=0x00004000) for device 'Leopard-2FE(0)' at pc=0x60603df0: bus=0,device=6,function=0,reg=0x0c
+Aug 25 19:38:12.640 CPU0: PCI: write request (data=0x00004000) for device 'Leopard-2FE(0)' at pc=0x60603dfc: bus=0,device=6,function=0,reg=0x0c
+Aug 25 19:38:12.640 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f34: bus=0,device=6,function=0,reg=0x00
+Aug 25 19:38:12.640 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f38: bus=0,device=6,function=0,reg=0x00
+Aug 25 19:38:12.640 CPU0: PCI: write request (data=0x00004000) for device 'Leopard-2FE(0)' at pc=0x60603df0: bus=0,device=6,function=0,reg=0x0c
+Aug 25 19:38:12.640 CPU0: PCI: write request (data=0x00004000) for device 'Leopard-2FE(0)' at pc=0x60603dfc: bus=0,device=6,function=0,reg=0x0c
+Aug 25 19:38:12.659 Leopard-2FE(0): fetching init block at address 0x0b8a5b60
+Aug 25 19:38:12.659 Leopard-2FE(0): rx_ring = 0x0b8a5bc0 (64), tx_ring = 0x0b8a6000 (128)
+Aug 25 19:38:12.659 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:12.660 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f34: bus=0,device=7,function=0,reg=0x00
+Aug 25 19:38:12.660 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f38: bus=0,device=7,function=0,reg=0x00
+Aug 25 19:38:12.660 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f34: bus=0,device=7,function=0,reg=0x00
+Aug 25 19:38:12.660 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f38: bus=0,device=7,function=0,reg=0x00
+Aug 25 19:38:12.660 CPU0: PCI: write request (data=0x48800000) for device 'Leopard-2FE(0)' at pc=0x60603df0: bus=0,device=7,function=0,reg=0x14
+Aug 25 19:38:12.660 Leopard-2FE(0): registers are mapped at 0x48800000
+Aug 25 19:38:12.660 CPU0: PCI: write request (data=0x48800000) for device 'Leopard-2FE(0)' at pc=0x60603dfc: bus=0,device=7,function=0,reg=0x14
+Aug 25 19:38:12.660 Leopard-2FE(0): registers are mapped at 0x48800000
+Aug 25 19:38:12.660 CPU0: PCI: write request (data=0x00000006) for device 'Leopard-2FE(0)' at pc=0x60603df0: bus=0,device=7,function=0,reg=0x04
+Aug 25 19:38:12.660 CPU0: PCI: write request (data=0x00000006) for device 'Leopard-2FE(0)' at pc=0x60603dfc: bus=0,device=7,function=0,reg=0x04
+Aug 25 19:38:12.660 CPU0: PCI: write request (data=0x00004000) for device 'Leopard-2FE(0)' at pc=0x60603df0: bus=0,device=7,function=0,reg=0x0c
+Aug 25 19:38:12.660 CPU0: PCI: write request (data=0x00004000) for device 'Leopard-2FE(0)' at pc=0x60603dfc: bus=0,device=7,function=0,reg=0x0c
+Aug 25 19:38:12.660 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f34: bus=0,device=7,function=0,reg=0x00
+Aug 25 19:38:12.660 CPU0: PCI: read request for device 'Leopard-2FE(0)' at pc=0x60603f38: bus=0,device=7,function=0,reg=0x00
+Aug 25 19:38:12.660 CPU0: PCI: write request (data=0x00004000) for device 'Leopard-2FE(0)' at pc=0x60603df0: bus=0,device=7,function=0,reg=0x0c
+Aug 25 19:38:12.660 CPU0: PCI: write request (data=0x00004000) for device 'Leopard-2FE(0)' at pc=0x60603dfc: bus=0,device=7,function=0,reg=0x0c
+Aug 25 19:38:12.670 Leopard-2FE(0): fetching init block at address 0x0b8f4880
+Aug 25 19:38:12.670 Leopard-2FE(0): rx_ring = 0x0b8f48e0 (64), tx_ring = 0x0b8f4d20 (128)
+Aug 25 19:38:12.670 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:12.672 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x60603f44: bus=2,device=0,function=0,reg=0x00
+Aug 25 19:38:12.672 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x60603f48: bus=2,device=0,function=0,reg=0x00
+Aug 25 19:38:12.672 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x60603f44: bus=2,device=0,function=0,reg=0x00
+Aug 25 19:38:12.672 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x60603f48: bus=2,device=0,function=0,reg=0x00
+Aug 25 19:38:12.672 CPU0: PCI: write request (data=0x4d000000) for device 'NM-16ESW(1)' at pc=0x60603e10: bus=2,device=0,function=0,reg=0x10
+Aug 25 19:38:12.673 NM-16ESW(1): BCM5600 registers are mapped at 0x4d000000
+Aug 25 19:38:12.673 CPU0: PCI: write request (data=0x4d000000) for device 'NM-16ESW(1)' at pc=0x60603e1c: bus=2,device=0,function=0,reg=0x10
+Aug 25 19:38:12.673 NM-16ESW(1): BCM5600 registers are mapped at 0x4d000000
+Aug 25 19:38:12.673 CPU0: PCI: write request (data=0x00000046) for device 'NM-16ESW(1)' at pc=0x60603e10: bus=2,device=0,function=0,reg=0x04
+Aug 25 19:38:12.673 CPU0: PCI: write request (data=0x00000046) for device 'NM-16ESW(1)' at pc=0x60603e1c: bus=2,device=0,function=0,reg=0x04
+Aug 25 19:38:12.673 CPU0: PCI: write request (data=0x00004000) for device 'NM-16ESW(1)' at pc=0x60603e10: bus=2,device=0,function=0,reg=0x0c
+Aug 25 19:38:12.673 CPU0: PCI: write request (data=0x00004000) for device 'NM-16ESW(1)' at pc=0x60603e1c: bus=2,device=0,function=0,reg=0x0c
+Aug 25 19:38:12.673 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x60603f44: bus=2,device=0,function=0,reg=0x40
+Aug 25 19:38:12.673 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x60603f48: bus=2,device=0,function=0,reg=0x40
+Aug 25 19:38:12.673 CPU0: PCI: write request (data=0x00000000) for device 'NM-16ESW(1)' at pc=0x60603e10: bus=2,device=0,function=0,reg=0x40
+Aug 25 19:38:12.673 CPU0: PCI: write request (data=0x00000000) for device 'NM-16ESW(1)' at pc=0x60603e1c: bus=2,device=0,function=0,reg=0x40
+Aug 25 19:38:12.673 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x60603f44: bus=2,device=0,function=0,reg=0x08
+Aug 25 19:38:12.673 CPU0: PCI: read request for device 'NM-16ESW(1)' at pc=0x60603f48: bus=2,device=0,function=0,reg=0x08
+Aug 25 19:38:12.701 NM-16ESW(1): unknown opcode 0x00000016 (cmd=0x58614000)
+Aug 25 19:38:13.030 CPU0: PCI: read request for device 'NM-1FE-TX(2)' at pc=0x60603f44: bus=22,device=0,function=0,reg=0x00
+Aug 25 19:38:13.030 CPU0: PCI: read request for device 'NM-1FE-TX(2)' at pc=0x60603f48: bus=22,device=0,function=0,reg=0x00
+Aug 25 19:38:13.030 CPU0: PCI: read request for device 'NM-1FE-TX(2)' at pc=0x60603f44: bus=22,device=0,function=0,reg=0x00
+Aug 25 19:38:13.030 CPU0: PCI: read request for device 'NM-1FE-TX(2)' at pc=0x60603f48: bus=22,device=0,function=0,reg=0x00
+Aug 25 19:38:13.030 CPU0: PCI: write request (data=0x4e000000) for device 'NM-1FE-TX(2)' at pc=0x60603e10: bus=22,device=0,function=0,reg=0x14
+Aug 25 19:38:13.030 NM-1FE-TX(2): registers are mapped at 0x4e000000
+Aug 25 19:38:13.030 CPU0: PCI: write request (data=0x4e000000) for device 'NM-1FE-TX(2)' at pc=0x60603e1c: bus=22,device=0,function=0,reg=0x14
+Aug 25 19:38:13.030 NM-1FE-TX(2): registers are mapped at 0x4e000000
+Aug 25 19:38:13.030 CPU0: PCI: write request (data=0x00000006) for device 'NM-1FE-TX(2)' at pc=0x60603e10: bus=22,device=0,function=0,reg=0x04
+Aug 25 19:38:13.030 CPU0: PCI: write request (data=0x00000006) for device 'NM-1FE-TX(2)' at pc=0x60603e1c: bus=22,device=0,function=0,reg=0x04
+Aug 25 19:38:13.030 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(2)' at pc=0x60603e10: bus=22,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.030 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(2)' at pc=0x60603e1c: bus=22,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.030 CPU0: PCI: read request for device 'NM-1FE-TX(2)' at pc=0x60603f44: bus=22,device=0,function=0,reg=0x00
+Aug 25 19:38:13.030 CPU0: PCI: read request for device 'NM-1FE-TX(2)' at pc=0x60603f48: bus=22,device=0,function=0,reg=0x00
+Aug 25 19:38:13.030 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(2)' at pc=0x60603e10: bus=22,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.030 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(2)' at pc=0x60603e1c: bus=22,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.040 NM-1FE-TX(2): fetching init block at address 0x0ba5f400
+Aug 25 19:38:13.040 NM-1FE-TX(2): rx_ring = 0x0ba5f460 (64), tx_ring = 0x0ba5f8a0 (128)
+Aug 25 19:38:13.040 NM-1FE-TX(2): CSR0 = 0x0101
+Aug 25 19:38:13.042 CPU0: PCI: read request for device 'NM-1FE-TX(3)' at pc=0x60603f44: bus=6,device=0,function=0,reg=0x00
+Aug 25 19:38:13.042 CPU0: PCI: read request for device 'NM-1FE-TX(3)' at pc=0x60603f48: bus=6,device=0,function=0,reg=0x00
+Aug 25 19:38:13.042 CPU0: PCI: read request for device 'NM-1FE-TX(3)' at pc=0x60603f44: bus=6,device=0,function=0,reg=0x00
+Aug 25 19:38:13.042 CPU0: PCI: read request for device 'NM-1FE-TX(3)' at pc=0x60603f48: bus=6,device=0,function=0,reg=0x00
+Aug 25 19:38:13.042 CPU0: PCI: write request (data=0x4d800000) for device 'NM-1FE-TX(3)' at pc=0x60603e10: bus=6,device=0,function=0,reg=0x14
+Aug 25 19:38:13.042 NM-1FE-TX(3): registers are mapped at 0x4d800000
+Aug 25 19:38:13.042 CPU0: PCI: write request (data=0x4d800000) for device 'NM-1FE-TX(3)' at pc=0x60603e1c: bus=6,device=0,function=0,reg=0x14
+Aug 25 19:38:13.042 NM-1FE-TX(3): registers are mapped at 0x4d800000
+Aug 25 19:38:13.042 CPU0: PCI: write request (data=0x00000006) for device 'NM-1FE-TX(3)' at pc=0x60603e10: bus=6,device=0,function=0,reg=0x04
+Aug 25 19:38:13.042 CPU0: PCI: write request (data=0x00000006) for device 'NM-1FE-TX(3)' at pc=0x60603e1c: bus=6,device=0,function=0,reg=0x04
+Aug 25 19:38:13.042 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(3)' at pc=0x60603e10: bus=6,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.042 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(3)' at pc=0x60603e1c: bus=6,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.042 CPU0: PCI: read request for device 'NM-1FE-TX(3)' at pc=0x60603f44: bus=6,device=0,function=0,reg=0x00
+Aug 25 19:38:13.042 CPU0: PCI: read request for device 'NM-1FE-TX(3)' at pc=0x60603f48: bus=6,device=0,function=0,reg=0x00
+Aug 25 19:38:13.042 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(3)' at pc=0x60603e10: bus=6,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.042 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(3)' at pc=0x60603e1c: bus=6,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.053 NM-1FE-TX(3): fetching init block at address 0x0baae120
+Aug 25 19:38:13.053 NM-1FE-TX(3): rx_ring = 0x0baae180 (64), tx_ring = 0x0baae5c0 (128)
+Aug 25 19:38:13.053 NM-1FE-TX(3): CSR0 = 0x0101
+Aug 25 19:38:13.055 CPU0: PCI: read request for device 'NM-1FE-TX(4)' at pc=0x60603f44: bus=18,device=0,function=0,reg=0x00
+Aug 25 19:38:13.055 CPU0: PCI: read request for device 'NM-1FE-TX(4)' at pc=0x60603f48: bus=18,device=0,function=0,reg=0x00
+Aug 25 19:38:13.055 CPU0: PCI: read request for device 'NM-1FE-TX(4)' at pc=0x60603f44: bus=18,device=0,function=0,reg=0x00
+Aug 25 19:38:13.055 CPU0: PCI: read request for device 'NM-1FE-TX(4)' at pc=0x60603f48: bus=18,device=0,function=0,reg=0x00
+Aug 25 19:38:13.055 CPU0: PCI: write request (data=0x4e800000) for device 'NM-1FE-TX(4)' at pc=0x60603e10: bus=18,device=0,function=0,reg=0x14
+Aug 25 19:38:13.055 NM-1FE-TX(4): registers are mapped at 0x4e800000
+Aug 25 19:38:13.055 CPU0: PCI: write request (data=0x4e800000) for device 'NM-1FE-TX(4)' at pc=0x60603e1c: bus=18,device=0,function=0,reg=0x14
+Aug 25 19:38:13.055 NM-1FE-TX(4): registers are mapped at 0x4e800000
+Aug 25 19:38:13.055 CPU0: PCI: write request (data=0x00000006) for device 'NM-1FE-TX(4)' at pc=0x60603e10: bus=18,device=0,function=0,reg=0x04
+Aug 25 19:38:13.055 CPU0: PCI: write request (data=0x00000006) for device 'NM-1FE-TX(4)' at pc=0x60603e1c: bus=18,device=0,function=0,reg=0x04
+Aug 25 19:38:13.055 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(4)' at pc=0x60603e10: bus=18,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.055 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(4)' at pc=0x60603e1c: bus=18,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.055 CPU0: PCI: read request for device 'NM-1FE-TX(4)' at pc=0x60603f44: bus=18,device=0,function=0,reg=0x00
+Aug 25 19:38:13.055 CPU0: PCI: read request for device 'NM-1FE-TX(4)' at pc=0x60603f48: bus=18,device=0,function=0,reg=0x00
+Aug 25 19:38:13.056 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(4)' at pc=0x60603e10: bus=18,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.056 CPU0: PCI: write request (data=0x00004000) for device 'NM-1FE-TX(4)' at pc=0x60603e1c: bus=18,device=0,function=0,reg=0x0c
+Aug 25 19:38:13.071 NM-1FE-TX(4): fetching init block at address 0x0bafce40
+Aug 25 19:38:13.071 NM-1FE-TX(4): rx_ring = 0x0bafcea0 (64), tx_ring = 0x0bafd2e0 (128)
+Aug 25 19:38:13.071 NM-1FE-TX(4): CSR0 = 0x0101
+Aug 25 19:38:13.161 CPU0: IO_FPGA: write to unknown addr 0x10002, value=0x0, pc=0x605f753c (size=2)
+Aug 25 19:38:13.192 Leopard-2FE(0): fetching init block at address 0x0b8a5b60
+Aug 25 19:38:13.192 Leopard-2FE(0): rx_ring = 0x0b8a5bc0 (64), tx_ring = 0x0b8a6000 (128)
+Aug 25 19:38:13.192 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:13.195 Leopard-2FE(0): fetching init block at address 0x0b8f4880
+Aug 25 19:38:13.196 Leopard-2FE(0): rx_ring = 0x0b8f48e0 (64), tx_ring = 0x0b8f4d20 (128)
+Aug 25 19:38:13.196 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:13.198 NM-1FE-TX(2): fetching init block at address 0x0ba5f400
+Aug 25 19:38:13.198 NM-1FE-TX(2): rx_ring = 0x0ba5f460 (64), tx_ring = 0x0ba5f8a0 (128)
+Aug 25 19:38:13.198 NM-1FE-TX(2): CSR0 = 0x0101
+Aug 25 19:38:13.200 NM-1FE-TX(3): fetching init block at address 0x0baae120
+Aug 25 19:38:13.200 NM-1FE-TX(3): rx_ring = 0x0baae180 (64), tx_ring = 0x0baae5c0 (128)
+Aug 25 19:38:13.200 NM-1FE-TX(3): CSR0 = 0x0101
+Aug 25 19:38:13.203 NM-1FE-TX(4): fetching init block at address 0x0bafce40
+Aug 25 19:38:13.203 NM-1FE-TX(4): rx_ring = 0x0bafcea0 (64), tx_ring = 0x0bafd2e0 (128)
+Aug 25 19:38:13.203 NM-1FE-TX(4): CSR0 = 0x0101
+Aug 25 19:38:13.254 CPU0: JIT: partial JIT flush (count=692)
+Aug 25 19:38:13.497 Leopard-2FE(0): fetching init block at address 0x0b8a5b60
+Aug 25 19:38:13.497 Leopard-2FE(0): rx_ring = 0x0b8a5bc0 (64), tx_ring = 0x0b8a6000 (128)
+Aug 25 19:38:13.497 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:13.499 Leopard-2FE(0): fetching init block at address 0x0b8f4880
+Aug 25 19:38:13.499 Leopard-2FE(0): rx_ring = 0x0b8f48e0 (64), tx_ring = 0x0b8f4d20 (128)
+Aug 25 19:38:13.499 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:13.503 NM-1FE-TX(2): fetching init block at address 0x0ba5f400
+Aug 25 19:38:13.503 NM-1FE-TX(2): rx_ring = 0x0ba5f460 (64), tx_ring = 0x0ba5f8a0 (128)
+Aug 25 19:38:13.503 NM-1FE-TX(2): CSR0 = 0x0101
+Aug 25 19:38:13.505 NM-1FE-TX(3): fetching init block at address 0x0baae120
+Aug 25 19:38:13.505 NM-1FE-TX(3): rx_ring = 0x0baae180 (64), tx_ring = 0x0baae5c0 (128)
+Aug 25 19:38:13.505 NM-1FE-TX(3): CSR0 = 0x0101
+Aug 25 19:38:13.507 NM-1FE-TX(4): fetching init block at address 0x0bafce40
+Aug 25 19:38:13.507 NM-1FE-TX(4): rx_ring = 0x0bafcea0 (64), tx_ring = 0x0bafd2e0 (128)
+Aug 25 19:38:13.507 NM-1FE-TX(4): CSR0 = 0x0101
+Aug 25 19:38:13.521 Leopard-2FE(0): fetching init block at address 0x0b8a5b60
+Aug 25 19:38:13.521 Leopard-2FE(0): rx_ring = 0x0b8a5bc0 (64), tx_ring = 0x0b8a6000 (128)
+Aug 25 19:38:13.521 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:13.522 Leopard-2FE(0): fetching init block at address 0x0b8f4880
+Aug 25 19:38:13.523 Leopard-2FE(0): rx_ring = 0x0b8f48e0 (64), tx_ring = 0x0b8f4d20 (128)
+Aug 25 19:38:13.523 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:13.524 NM-1FE-TX(2): fetching init block at address 0x0ba5f400
+Aug 25 19:38:13.524 NM-1FE-TX(2): rx_ring = 0x0ba5f460 (64), tx_ring = 0x0ba5f8a0 (128)
+Aug 25 19:38:13.524 NM-1FE-TX(2): CSR0 = 0x0101
+Aug 25 19:38:13.526 NM-1FE-TX(3): fetching init block at address 0x0baae120
+Aug 25 19:38:13.526 NM-1FE-TX(3): rx_ring = 0x0baae180 (64), tx_ring = 0x0baae5c0 (128)
+Aug 25 19:38:13.526 NM-1FE-TX(3): CSR0 = 0x0101
+Aug 25 19:38:13.540 NM-1FE-TX(4): fetching init block at address 0x0bafce40
+Aug 25 19:38:13.540 NM-1FE-TX(4): rx_ring = 0x0bafcea0 (64), tx_ring = 0x0bafd2e0 (128)
+Aug 25 19:38:13.540 NM-1FE-TX(4): CSR0 = 0x0101
+Aug 25 19:38:13.544 Leopard-2FE(0): fetching init block at address 0x0b8a5b60
+Aug 25 19:38:13.544 Leopard-2FE(0): rx_ring = 0x0b8a5bc0 (64), tx_ring = 0x0b8a6000 (128)
+Aug 25 19:38:13.544 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:13.546 Leopard-2FE(0): fetching init block at address 0x0b8f4880
+Aug 25 19:38:13.546 Leopard-2FE(0): rx_ring = 0x0b8f48e0 (64), tx_ring = 0x0b8f4d20 (128)
+Aug 25 19:38:13.546 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:13.548 NM-1FE-TX(2): fetching init block at address 0x0ba5f400
+Aug 25 19:38:13.548 NM-1FE-TX(2): rx_ring = 0x0ba5f460 (64), tx_ring = 0x0ba5f8a0 (128)
+Aug 25 19:38:13.548 NM-1FE-TX(2): CSR0 = 0x0101
+Aug 25 19:38:13.550 NM-1FE-TX(3): fetching init block at address 0x0baae120
+Aug 25 19:38:13.550 NM-1FE-TX(3): rx_ring = 0x0baae180 (64), tx_ring = 0x0baae5c0 (128)
+Aug 25 19:38:13.550 NM-1FE-TX(3): CSR0 = 0x0101
+Aug 25 19:38:13.554 NM-1FE-TX(4): fetching init block at address 0x0bafce40
+Aug 25 19:38:13.554 NM-1FE-TX(4): rx_ring = 0x0bafcea0 (64), tx_ring = 0x0bafd2e0 (128)
+Aug 25 19:38:13.554 NM-1FE-TX(4): CSR0 = 0x0101
+Aug 25 19:38:14.335 Leopard-2FE(0): fetching init block at address 0x0b8a5b60
+Aug 25 19:38:14.335 Leopard-2FE(0): rx_ring = 0x0b8a5bc0 (64), tx_ring = 0x0b8a6000 (128)
+Aug 25 19:38:14.335 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:14.337 Leopard-2FE(0): fetching init block at address 0x0b8f4880
+Aug 25 19:38:14.337 Leopard-2FE(0): rx_ring = 0x0b8f48e0 (64), tx_ring = 0x0b8f4d20 (128)
+Aug 25 19:38:14.337 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:14.339 NM-1FE-TX(2): fetching init block at address 0x0ba5f400
+Aug 25 19:38:14.339 NM-1FE-TX(2): rx_ring = 0x0ba5f460 (64), tx_ring = 0x0ba5f8a0 (128)
+Aug 25 19:38:14.339 NM-1FE-TX(2): CSR0 = 0x0101
+Aug 25 19:38:14.341 NM-1FE-TX(3): fetching init block at address 0x0baae120
+Aug 25 19:38:14.341 NM-1FE-TX(3): rx_ring = 0x0baae180 (64), tx_ring = 0x0baae5c0 (128)
+Aug 25 19:38:14.341 NM-1FE-TX(3): CSR0 = 0x0101
+Aug 25 19:38:14.343 NM-1FE-TX(4): fetching init block at address 0x0bafce40
+Aug 25 19:38:14.343 NM-1FE-TX(4): rx_ring = 0x0bafcea0 (64), tx_ring = 0x0bafd2e0 (128)
+Aug 25 19:38:14.343 NM-1FE-TX(4): CSR0 = 0x0101
+Aug 25 19:38:14.413 CPU0: JIT: flushing data structures (compiled pages=896)
+Aug 25 19:38:14.811 CPU0: JIT: partial JIT flush (count=799)
+Aug 25 19:38:16.161 CPU0: JIT: flushing data structures (compiled pages=932)
+Aug 25 19:38:16.643 ROM: trying to read bootvar 'PMDEBUG'
+Aug 25 19:38:16.650 ROM: trying to read bootvar 'MONDEBUG'
+Aug 25 19:38:17.093 ROM: unhandled syscall 0x0000001a at pc=0x60569b04 (a1=0x652042bc,a2=0x64880000,a3=0x00e02c4c)
+Aug 25 19:38:17.093 ROM: unhandled syscall 0x00000009 at pc=0x60569b04 (a1=0x00000000,a2=0x64880000,a3=0x00e02c4c)
+Aug 25 19:38:17.258 CPU0: JIT: partial JIT flush (count=795)
+Aug 25 19:38:17.852 Leopard-2FE(0): fetching init block at address 0x0b8a5b60
+Aug 25 19:38:17.853 Leopard-2FE(0): rx_ring = 0x0b8a5bc0 (64), tx_ring = 0x0b8a6000 (128)
+Aug 25 19:38:17.853 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:17.901 Leopard-2FE(0): fetching init block at address 0x0b8f4880
+Aug 25 19:38:17.901 Leopard-2FE(0): rx_ring = 0x0b8f48e0 (64), tx_ring = 0x0b8f4d20 (128)
+Aug 25 19:38:17.901 Leopard-2FE(0): CSR0 = 0x0101
+Aug 25 19:38:17.959 NM-1FE-TX(2): fetching init block at address 0x0ba5f400
+Aug 25 19:38:17.959 NM-1FE-TX(2): rx_ring = 0x0ba5f460 (64), tx_ring = 0x0ba5f8a0 (128)
+Aug 25 19:38:17.959 NM-1FE-TX(2): CSR0 = 0x0101
+Aug 25 19:38:18.023 NM-1FE-TX(3): fetching init block at address 0x0baae120
+Aug 25 19:38:18.023 NM-1FE-TX(3): rx_ring = 0x0baae180 (64), tx_ring = 0x0baae5c0 (128)
+Aug 25 19:38:18.023 NM-1FE-TX(3): CSR0 = 0x0101
+Aug 25 19:38:18.045 CPU0: JIT: flushing data structures (compiled pages=915)
+Aug 25 19:38:18.178 NM-1FE-TX(4): fetching init block at address 0x0bafce40
+Aug 25 19:38:18.179 NM-1FE-TX(4): rx_ring = 0x0bafcea0 (64), tx_ring = 0x0bafd2e0 (128)
+Aug 25 19:38:18.179 NM-1FE-TX(4): CSR0 = 0x0101
+Aug 25 19:38:18.708 ROM: trying to read bootvar 'ROM_PERSISTENT_UTC'
+Aug 25 19:38:18.869 CPU0: JIT: partial JIT flush (count=732)
+Aug 25 19:38:19.571 ROM: trying to set bootvar 'BSI=0'
+Aug 25 19:38:19.575 ROM: trying to read bootvar 'RET_2_RCALTS'
+Aug 25 19:38:19.575 ROM: trying to set bootvar 'RET_2_RCALTS='
+Aug 25 19:38:19.633 ROM: trying to read bootvar 'RANDOM_NUM'
+Aug 25 19:38:19.662 CPU0: JIT: flushing data structures (compiled pages=914)
+Aug 25 19:39:52.679 ROM: trying to set bootvar 'RANDOM_NUM=2032373870'
+Aug 25 20:06:09.913 C3600_STOP: stopping simulation.
+Aug 25 20:06:09.913 CPU0: CPU_STATE: Halting CPU (old state=0)...
+Aug 25 20:06:10.008 VM: shutdown procedure engaged.
+Aug 25 20:06:10.008 VM_OBJECT: Shutdown of object "disk0"
+Aug 25 20:06:10.008 DEVICE: Removal of device disk0, fd=-1, host_addr=0x0, flags=2
+Aug 25 20:06:10.009 VM_OBJECT: Shutdown of object "clpd6729"
+Aug 25 20:06:10.009 VM_OBJECT: Shutdown of object "ns16552"
+Aug 25 20:06:10.009 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Aug 25 20:06:10.009 VM_OBJECT: Shutdown of object "rom"
+Aug 25 20:06:10.009 DEVICE: Removal of device rom, fd=-1, host_addr=0x0, flags=2
+Aug 25 20:06:10.009 VM_OBJECT: Shutdown of object "ram"
+Aug 25 20:06:10.009 DEVICE: Removal of device ram, fd=14, host_addr=0xe88e0000, flags=2
+Aug 25 20:06:10.009 MMAP: unmapping of device 'ram', fd=14, host_addr=0xe88e0000, len=0xc000000
+Aug 25 20:06:10.137 VM_OBJECT: Shutdown of object "gt64120"
+Aug 25 20:06:10.137 DEVICE: Removal of device gt64120, fd=-1, host_addr=0x0, flags=0
+Aug 25 20:06:10.137 VM_OBJECT: Shutdown of object "io_fpga"
+Aug 25 20:06:10.137 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Aug 25 20:06:10.137 VM_OBJECT: Shutdown of object "zero"
+Aug 25 20:06:10.137 DEVICE: Removal of device zero, fd=-1, host_addr=0x0, flags=0
+Aug 25 20:06:10.137 VM_OBJECT: Shutdown of object "nvram"
+Aug 25 20:06:10.137 DEVICE: Removal of device nvram, fd=13, host_addr=0xfe2f0000, flags=9
+Aug 25 20:06:10.137 MMAP: unmapping of device 'nvram', fd=13, host_addr=0xfe2f0000, len=0x40000
+Aug 25 20:06:10.177 VM_OBJECT: Shutdown of object "bootflash"
+Aug 25 20:06:10.177 DEVICE: Removal of device bootflash, fd=12, host_addr=0xfe330000, flags=1
+Aug 25 20:06:10.177 MMAP: unmapping of device 'bootflash', fd=12, host_addr=0xfe330000, len=0x800000
+Aug 25 20:06:10.179 VM_OBJECT: Shutdown of object "remote_ctrl"
+Aug 25 20:06:10.179 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Aug 25 20:06:10.179 VM: removing PCI busses.
+Aug 25 20:06:10.179 DEVICE: Removal of device pci_io, fd=-1, host_addr=0x0, flags=0
+Aug 25 20:06:10.179 VM: deleting VTTY.
+Aug 25 20:06:10.179 VTTY: Console port: closing FD 11
+Aug 25 20:06:10.180 VM: deleting system CPUs.
+Aug 25 20:06:10.180 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Aug 25 20:06:10.247 VM: shutdown procedure completed.
+Aug 25 20:06:54.740 VM: trying to shutdown an inactive VM.

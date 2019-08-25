@@ -1,0 +1,63 @@
+Aug 25 19:30:23.863 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 19:30:23.867 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 5721.
+Aug 25 19:30:24.226 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 19:30:24.226 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips 
+Aug 25 19:30:24.227 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips
+Aug 25 19:30:24.227 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\d1bd08db-b68e-45c6-a9fb-631f86543b56 
+Aug 25 19:30:24.228 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\d1bd08db-b68e-45c6-a9fb-631f86543b56
+Aug 25 19:30:24.229 HYPERVISOR: exec_cmd: vm create BELIDA 2 c3600 
+Aug 25 19:30:24.235 VM: VM BELIDA created.
+Aug 25 19:30:24.236 HYPERVISOR: exec_cmd: vm set_con_tcp_port BELIDA 5027 
+Aug 25 19:30:24.236 HYPERVISOR: exec_cmd: c3600 get_mac_addr BELIDA 
+Aug 25 19:30:24.237 HYPERVISOR: exec_cmd: c3600 set_chassis BELIDA 3660 
+Aug 25 19:30:24.238 HYPERVISOR: exec_cmd: vm set_disk0 BELIDA 12 
+Aug 25 19:30:24.239 HYPERVISOR: exec_cmd: vm set_exec_area BELIDA 64 
+Aug 25 19:30:24.240 HYPERVISOR: exec_cmd: vm get_status BELIDA 
+Aug 25 19:30:24.240 HYPERVISOR: exec_cmd: vm set_idle_pc BELIDA 0x605f0ccc 
+Aug 25 19:30:24.243 HYPERVISOR: exec_cmd: vm set_ios BELIDA C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 25 19:30:24.244 HYPERVISOR: exec_cmd: c3600 set_mac_addr BELIDA cc02.a110.0000 
+Aug 25 19:30:24.245 HYPERVISOR: exec_cmd: vm set_nvram BELIDA 256 
+Aug 25 19:30:24.247 HYPERVISOR: exec_cmd: vm set_ram BELIDA 192 
+Aug 25 19:30:24.248 HYPERVISOR: exec_cmd: vm get_status BELIDA 
+Aug 25 19:30:24.248 HYPERVISOR: exec_cmd: vm slot_add_binding BELIDA 1 0 NM-16ESW 
+Aug 25 19:30:24.249 HYPERVISOR: exec_cmd: vm get_status BELIDA 
+Aug 25 19:30:24.250 HYPERVISOR: exec_cmd: vm slot_add_binding BELIDA 2 0 NM-1FE-TX 
+Aug 25 19:30:24.251 HYPERVISOR: exec_cmd: vm get_status BELIDA 
+Aug 25 19:30:24.251 HYPERVISOR: exec_cmd: vm slot_add_binding BELIDA 3 0 NM-1FE-TX 
+Aug 25 19:30:24.252 HYPERVISOR: exec_cmd: vm get_status BELIDA 
+Aug 25 19:30:24.252 HYPERVISOR: exec_cmd: vm slot_add_binding BELIDA 4 0 NM-1FE-TX 
+Aug 25 19:30:38.598 HYPERVISOR: exec_cmd: nio create_udp udp-5ec42dc1-b78d-4657-b749-789384544c82 10002 127.0.0.1 10003 
+Aug 25 19:30:40.313 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BELIDA 0 0 udp-5ec42dc1-b78d-4657-b749-789384544c82 
+Aug 25 19:30:40.315 HYPERVISOR: exec_cmd: vm get_status BELIDA 
+Aug 25 19:30:41.342 HYPERVISOR: exec_cmd: nio create_udp udp-d5abd22a-a866-41d9-9d91-14b47bfdb318 10014 127.0.0.1 10015 
+Aug 25 19:30:41.352 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BELIDA 0 1 udp-d5abd22a-a866-41d9-9d91-14b47bfdb318 
+Aug 25 19:30:41.353 HYPERVISOR: exec_cmd: vm get_status BELIDA 
+Aug 25 19:30:41.592 HYPERVISOR: exec_cmd: nio create_udp udp-753ffc20-4c44-41bb-bede-afb07928c125 10020 127.0.0.1 10021 
+Aug 25 19:30:41.611 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BELIDA 2 0 udp-753ffc20-4c44-41bb-bede-afb07928c125 
+Aug 25 19:30:41.612 HYPERVISOR: exec_cmd: vm get_status BELIDA 
+Aug 25 19:38:03.272 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Aug 25 19:38:03.280 VM: VM Ghost created.
+Aug 25 19:38:03.281 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 25 19:38:03.281 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Aug 25 19:38:03.282 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\c3660-a3jk9s-mz.124-19.image-192.ghost' 
+Aug 25 19:38:03.283 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Aug 25 19:38:03.284 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 25 19:38:03.286 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Aug 25 19:38:03.287 HYPERVISOR: exec_cmd: vm start Ghost 
+Aug 25 19:38:03.559 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Aug 25 19:38:03.616 VM: VM Ghost shutdown.
+Aug 25 19:38:03.616 VM: VM Ghost destroyed.
+Aug 25 19:38:03.643 HYPERVISOR: exec_cmd: vm get_status BELIDA 
+Aug 25 19:38:03.649 HYPERVISOR: exec_cmd: vm set_config BELIDA configs\i2_startup-config.cfg 
+Aug 25 19:38:03.650 HYPERVISOR: exec_cmd: vm start BELIDA 
+Aug 25 19:38:34.989 HYPERVISOR: exec_cmd: vm extract_config BELIDA 
+Aug 25 19:50:21.779 HYPERVISOR: exec_cmd: nio bind_filter udp-d5abd22a-a866-41d9-9d91-14b47bfdb318 2 capture 
+Aug 25 19:50:21.780 HYPERVISOR: exec_cmd: nio setup_filter udp-d5abd22a-a866-41d9-9d91-14b47bfdb318 2 en10mb C:\Users\Agiya\GNS3\projects\kantorospf\tmp\captures\BELIDA_FastEthernet01_to_JAYAPERMAI_FastEthernet01.pcap 
+Aug 25 19:54:15.538 HYPERVISOR: exec_cmd: nio unbind_filter udp-d5abd22a-a866-41d9-9d91-14b47bfdb318 2 
+Aug 25 20:06:09.906 HYPERVISOR: exec_cmd: vm get_status BELIDA 
+Aug 25 20:06:09.913 HYPERVISOR: exec_cmd: vm stop BELIDA 
+Aug 25 20:06:10.247 VM: VM BELIDA shutdown.
+Aug 25 20:06:10.250 HYPERVISOR: exec_cmd: vm extract_config BELIDA 
+Aug 25 20:06:54.740 HYPERVISOR: Stopped.
+Aug 25 20:06:54.741 VM: VM BELIDA destroyed.
+Aug 25 20:06:54.802 GENERAL: reset done.

@@ -1,0 +1,61 @@
+Aug 09 14:23:55.500 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 09 14:23:55.503 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 14957.
+Aug 09 14:23:55.889 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 09 14:23:55.889 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\tesmpls2\project-files\dynamips 
+Aug 09 14:23:55.890 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\tesmpls2\project-files\dynamips
+Aug 09 14:23:55.890 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\tesmpls2\project-files\dynamips\8d3dff86-ba1d-4978-b12f-6721cb96b991 
+Aug 09 14:23:55.892 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\tesmpls2\project-files\dynamips\8d3dff86-ba1d-4978-b12f-6721cb96b991
+Aug 09 14:23:55.892 HYPERVISOR: exec_cmd: vm create JAKARTA 8 c3600 
+Aug 09 14:23:55.910 VM: VM JAKARTA created.
+Aug 09 14:23:55.911 HYPERVISOR: exec_cmd: vm set_con_tcp_port JAKARTA 5007 
+Aug 09 14:23:55.911 HYPERVISOR: exec_cmd: c3600 get_mac_addr JAKARTA 
+Aug 09 14:23:55.912 HYPERVISOR: exec_cmd: c3600 set_chassis JAKARTA 3660 
+Aug 09 14:23:55.912 HYPERVISOR: exec_cmd: vm set_disk0 JAKARTA 12 
+Aug 09 14:23:55.913 HYPERVISOR: exec_cmd: vm set_exec_area JAKARTA 64 
+Aug 09 14:23:55.913 HYPERVISOR: exec_cmd: vm get_status JAKARTA 
+Aug 09 14:23:55.913 HYPERVISOR: exec_cmd: vm set_idle_pc JAKARTA 0x605f0ccc 
+Aug 09 14:23:55.915 HYPERVISOR: exec_cmd: vm set_ios JAKARTA C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 09 14:23:55.916 HYPERVISOR: exec_cmd: c3600 set_mac_addr JAKARTA cc08.8d38.0000 
+Aug 09 14:23:55.916 HYPERVISOR: exec_cmd: vm set_nvram JAKARTA 256 
+Aug 09 14:23:55.916 HYPERVISOR: exec_cmd: vm set_ram JAKARTA 192 
+Aug 09 14:23:55.917 HYPERVISOR: exec_cmd: vm get_status JAKARTA 
+Aug 09 14:23:55.918 HYPERVISOR: exec_cmd: vm slot_add_binding JAKARTA 1 0 NM-16ESW 
+Aug 09 14:23:55.918 HYPERVISOR: exec_cmd: vm get_status JAKARTA 
+Aug 09 14:23:55.918 HYPERVISOR: exec_cmd: vm slot_add_binding JAKARTA 2 0 NM-1FE-TX 
+Aug 09 14:23:55.919 HYPERVISOR: exec_cmd: vm get_status JAKARTA 
+Aug 09 14:23:55.919 HYPERVISOR: exec_cmd: vm slot_add_binding JAKARTA 3 0 NM-1FE-TX 
+Aug 09 14:23:55.920 HYPERVISOR: exec_cmd: vm get_status JAKARTA 
+Aug 09 14:23:55.920 HYPERVISOR: exec_cmd: vm slot_add_binding JAKARTA 4 0 NM-1FE-TX 
+Aug 09 14:24:00.475 HYPERVISOR: exec_cmd: nio create_udp udp-1955d808-e553-4a73-bc95-f3cffded97dd 10006 127.0.0.1 10007 
+Aug 09 14:24:01.509 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JAKARTA 0 1 udp-1955d808-e553-4a73-bc95-f3cffded97dd 
+Aug 09 14:24:01.510 HYPERVISOR: exec_cmd: vm get_status JAKARTA 
+Aug 09 14:24:08.102 HYPERVISOR: exec_cmd: nio create_udp udp-e5d63560-436f-4756-bb9f-929f456719df 10036 127.0.0.1 10037 
+Aug 09 14:24:08.110 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JAKARTA 0 0 udp-e5d63560-436f-4756-bb9f-929f456719df 
+Aug 09 14:24:08.112 HYPERVISOR: exec_cmd: vm get_status JAKARTA 
+Aug 09 14:26:20.522 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Aug 09 14:26:20.561 VM: VM Ghost created.
+Aug 09 14:26:20.658 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 09 14:26:20.665 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Aug 09 14:26:20.667 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Agiya\GNS3\projects\tesmpls2\project-files\dynamips\c3660-a3jk9s-mz.124-19.image-192.ghost' 
+Aug 09 14:26:20.669 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Aug 09 14:26:20.671 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 09 14:26:20.675 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Aug 09 14:26:20.676 HYPERVISOR: exec_cmd: vm start Ghost 
+Aug 09 14:26:21.095 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Aug 09 14:26:21.208 VM: VM Ghost shutdown.
+Aug 09 14:26:21.208 VM: VM Ghost destroyed.
+Aug 09 14:26:21.231 HYPERVISOR: exec_cmd: vm get_status JAKARTA 
+Aug 09 14:26:21.239 HYPERVISOR: exec_cmd: vm set_config JAKARTA configs\i8_startup-config.cfg 
+Aug 09 14:26:21.241 HYPERVISOR: exec_cmd: vm start JAKARTA 
+Aug 09 14:26:52.066 HYPERVISOR: exec_cmd: vm extract_config JAKARTA 
+Aug 09 14:46:08.389 HYPERVISOR: exec_cmd: vm get_status JAKARTA 
+Aug 09 14:46:08.396 HYPERVISOR: exec_cmd: vm stop JAKARTA 
+Aug 09 14:46:08.752 VM: VM JAKARTA shutdown.
+Aug 09 14:46:08.775 HYPERVISOR: exec_cmd: vm extract_config JAKARTA 
+Aug 09 14:46:10.177 HYPERVISOR: exec_cmd: vm get_status JAKARTA 
+Aug 09 14:46:10.186 HYPERVISOR: exec_cmd: vm extract_config JAKARTA 
+Aug 09 14:46:10.214 HYPERVISOR: exec_cmd: vm delete JAKARTA 
+Aug 09 14:46:10.214 VM: VM JAKARTA destroyed.
+Aug 09 14:46:10.258 HYPERVISOR: exec_cmd: hypervisor stop 
+Aug 09 14:46:10.613 HYPERVISOR: Stopped.
+Aug 09 14:46:10.613 GENERAL: reset done.

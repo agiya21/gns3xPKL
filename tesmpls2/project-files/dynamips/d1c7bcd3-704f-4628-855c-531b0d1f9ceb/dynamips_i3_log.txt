@@ -1,0 +1,62 @@
+Aug 09 14:23:56.179 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 09 14:23:56.182 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 14970.
+Aug 09 14:23:56.610 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 09 14:23:56.610 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\tesmpls2\project-files\dynamips 
+Aug 09 14:23:56.611 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\tesmpls2\project-files\dynamips
+Aug 09 14:23:56.611 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\tesmpls2\project-files\dynamips\1d737f78-d028-43c2-9f81-17789a7a8426 
+Aug 09 14:23:56.612 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\tesmpls2\project-files\dynamips\1d737f78-d028-43c2-9f81-17789a7a8426
+Aug 09 14:23:56.613 HYPERVISOR: exec_cmd: vm create P1 1 c3600 
+Aug 09 14:23:56.619 VM: VM P1 created.
+Aug 09 14:23:56.620 HYPERVISOR: exec_cmd: vm set_con_tcp_port P1 5003 
+Aug 09 14:23:56.620 HYPERVISOR: exec_cmd: c3600 get_mac_addr P1 
+Aug 09 14:23:56.620 HYPERVISOR: exec_cmd: c3600 set_chassis P1 3660 
+Aug 09 14:23:56.621 HYPERVISOR: exec_cmd: vm set_disk0 P1 12 
+Aug 09 14:23:56.622 HYPERVISOR: exec_cmd: vm set_exec_area P1 64 
+Aug 09 14:23:56.623 HYPERVISOR: exec_cmd: vm get_status P1 
+Aug 09 14:23:56.623 HYPERVISOR: exec_cmd: vm set_idle_pc P1 0x605f0ccc 
+Aug 09 14:23:56.625 HYPERVISOR: exec_cmd: vm set_ios P1 C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 09 14:23:56.627 HYPERVISOR: exec_cmd: c3600 set_mac_addr P1 cc01.6570.0000 
+Aug 09 14:23:56.633 HYPERVISOR: exec_cmd: vm set_nvram P1 256 
+Aug 09 14:23:56.634 HYPERVISOR: exec_cmd: vm set_ram P1 192 
+Aug 09 14:23:56.635 HYPERVISOR: exec_cmd: vm get_status P1 
+Aug 09 14:23:56.636 HYPERVISOR: exec_cmd: vm slot_add_binding P1 1 0 NM-16ESW 
+Aug 09 14:23:56.636 HYPERVISOR: exec_cmd: vm get_status P1 
+Aug 09 14:23:56.637 HYPERVISOR: exec_cmd: vm slot_add_binding P1 2 0 NM-1FE-TX 
+Aug 09 14:23:56.638 HYPERVISOR: exec_cmd: vm get_status P1 
+Aug 09 14:23:56.638 HYPERVISOR: exec_cmd: vm slot_add_binding P1 3 0 NM-1FE-TX 
+Aug 09 14:23:56.639 HYPERVISOR: exec_cmd: vm get_status P1 
+Aug 09 14:23:56.639 HYPERVISOR: exec_cmd: vm slot_add_binding P1 4 0 NM-1FE-TX 
+Aug 09 14:23:56.641 HYPERVISOR: exec_cmd: vm set_con_tcp_port P1 5003 
+Aug 09 14:24:01.883 HYPERVISOR: exec_cmd: nio create_udp udp-5c8e7e24-0f68-4375-815b-4469e81021d2 10010 127.0.0.1 10011 
+Aug 09 14:24:02.866 HYPERVISOR: exec_cmd: vm slot_add_nio_binding P1 0 0 udp-5c8e7e24-0f68-4375-815b-4469e81021d2 
+Aug 09 14:24:02.867 HYPERVISOR: exec_cmd: vm get_status P1 
+Aug 09 14:24:04.285 HYPERVISOR: exec_cmd: nio create_udp udp-3579cb24-f637-4c45-9e2e-602a619926ca 10016 127.0.0.1 10017 
+Aug 09 14:24:04.296 HYPERVISOR: exec_cmd: vm slot_add_nio_binding P1 0 1 udp-3579cb24-f637-4c45-9e2e-602a619926ca 
+Aug 09 14:24:04.297 HYPERVISOR: exec_cmd: vm get_status P1 
+Aug 09 14:26:00.033 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Aug 09 14:26:00.039 VM: VM Ghost created.
+Aug 09 14:26:00.040 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 09 14:26:00.041 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Aug 09 14:26:00.041 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Agiya\GNS3\projects\tesmpls2\project-files\dynamips\c3660-a3jk9s-mz.124-19.image-192.ghost' 
+Aug 09 14:26:00.042 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Aug 09 14:26:00.042 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 09 14:26:00.044 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Aug 09 14:26:00.045 HYPERVISOR: exec_cmd: vm start Ghost 
+Aug 09 14:26:00.473 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Aug 09 14:26:00.569 VM: VM Ghost shutdown.
+Aug 09 14:26:00.569 VM: VM Ghost destroyed.
+Aug 09 14:26:00.614 HYPERVISOR: exec_cmd: vm get_status P1 
+Aug 09 14:26:00.615 HYPERVISOR: exec_cmd: vm set_config P1 configs\i1_startup-config.cfg 
+Aug 09 14:26:00.616 HYPERVISOR: exec_cmd: vm start P1 
+Aug 09 14:26:31.597 HYPERVISOR: exec_cmd: vm extract_config P1 
+Aug 09 14:46:08.858 HYPERVISOR: exec_cmd: vm get_status P1 
+Aug 09 14:46:08.859 HYPERVISOR: exec_cmd: vm stop P1 
+Aug 09 14:46:09.362 VM: VM P1 shutdown.
+Aug 09 14:46:09.364 HYPERVISOR: exec_cmd: vm extract_config P1 
+Aug 09 14:46:10.499 HYPERVISOR: exec_cmd: vm get_status P1 
+Aug 09 14:46:10.503 HYPERVISOR: exec_cmd: vm extract_config P1 
+Aug 09 14:46:10.527 HYPERVISOR: exec_cmd: vm delete P1 
+Aug 09 14:46:10.527 VM: VM P1 destroyed.
+Aug 09 14:46:10.531 HYPERVISOR: exec_cmd: hypervisor stop 
+Aug 09 14:46:10.941 HYPERVISOR: Stopped.
+Aug 09 14:46:10.941 GENERAL: reset done.

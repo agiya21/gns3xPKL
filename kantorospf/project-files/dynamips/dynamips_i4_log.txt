@@ -1,0 +1,57 @@
+Aug 25 19:30:25.032 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 19:30:25.035 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 5728.
+Aug 25 19:30:25.454 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 19:30:25.454 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips 
+Aug 25 19:30:25.455 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips
+Aug 25 19:30:25.456 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\0baa0f29-dde3-409c-9c5f-3cf5708c5eb9 
+Aug 25 19:30:25.457 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\0baa0f29-dde3-409c-9c5f-3cf5708c5eb9
+Aug 25 19:30:25.457 HYPERVISOR: exec_cmd: vm create PUNCAKTERANG 4 c3600 
+Aug 25 19:30:25.462 VM: VM PUNCAKTERANG created.
+Aug 25 19:30:25.463 HYPERVISOR: exec_cmd: vm set_con_tcp_port PUNCAKTERANG 5029 
+Aug 25 19:30:25.464 HYPERVISOR: exec_cmd: c3600 get_mac_addr PUNCAKTERANG 
+Aug 25 19:30:25.464 HYPERVISOR: exec_cmd: c3600 set_chassis PUNCAKTERANG 3660 
+Aug 25 19:30:25.465 HYPERVISOR: exec_cmd: vm set_disk0 PUNCAKTERANG 12 
+Aug 25 19:30:25.466 HYPERVISOR: exec_cmd: vm set_exec_area PUNCAKTERANG 64 
+Aug 25 19:30:25.467 HYPERVISOR: exec_cmd: vm get_status PUNCAKTERANG 
+Aug 25 19:30:25.467 HYPERVISOR: exec_cmd: vm set_idle_pc PUNCAKTERANG 0x605f0ccc 
+Aug 25 19:30:25.470 HYPERVISOR: exec_cmd: vm set_ios PUNCAKTERANG C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 25 19:30:25.470 HYPERVISOR: exec_cmd: c3600 set_mac_addr PUNCAKTERANG cc04.4d34.0000 
+Aug 25 19:30:25.471 HYPERVISOR: exec_cmd: vm set_nvram PUNCAKTERANG 256 
+Aug 25 19:30:25.472 HYPERVISOR: exec_cmd: vm set_ram PUNCAKTERANG 192 
+Aug 25 19:30:25.473 HYPERVISOR: exec_cmd: vm get_status PUNCAKTERANG 
+Aug 25 19:30:25.473 HYPERVISOR: exec_cmd: vm slot_add_binding PUNCAKTERANG 1 0 NM-16ESW 
+Aug 25 19:30:25.474 HYPERVISOR: exec_cmd: vm get_status PUNCAKTERANG 
+Aug 25 19:30:25.474 HYPERVISOR: exec_cmd: vm slot_add_binding PUNCAKTERANG 2 0 NM-1FE-TX 
+Aug 25 19:30:25.475 HYPERVISOR: exec_cmd: vm get_status PUNCAKTERANG 
+Aug 25 19:30:25.475 HYPERVISOR: exec_cmd: vm slot_add_binding PUNCAKTERANG 3 0 NM-1FE-TX 
+Aug 25 19:30:25.476 HYPERVISOR: exec_cmd: vm get_status PUNCAKTERANG 
+Aug 25 19:30:25.476 HYPERVISOR: exec_cmd: vm slot_add_binding PUNCAKTERANG 4 0 NM-1FE-TX 
+Aug 25 19:30:42.013 HYPERVISOR: exec_cmd: nio create_udp udp-99e75587-3c97-4dad-a615-4b8f1cd98ce8 10030 127.0.0.1 10031 
+Aug 25 19:30:42.299 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PUNCAKTERANG 0 0 udp-99e75587-3c97-4dad-a615-4b8f1cd98ce8 
+Aug 25 19:30:42.300 HYPERVISOR: exec_cmd: vm get_status PUNCAKTERANG 
+Aug 25 19:30:42.455 HYPERVISOR: exec_cmd: nio create_udp udp-9387b1d3-f187-479e-991d-24c1646832b8 10034 127.0.0.1 10035 
+Aug 25 19:30:42.467 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PUNCAKTERANG 0 1 udp-9387b1d3-f187-479e-991d-24c1646832b8 
+Aug 25 19:30:42.467 HYPERVISOR: exec_cmd: vm get_status PUNCAKTERANG 
+Aug 25 19:38:04.927 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Aug 25 19:38:04.933 VM: VM Ghost created.
+Aug 25 19:38:04.934 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 25 19:38:04.935 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Aug 25 19:38:04.935 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\c3660-a3jk9s-mz.124-19.image-192.ghost' 
+Aug 25 19:38:04.936 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Aug 25 19:38:04.937 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 25 19:38:04.939 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Aug 25 19:38:04.940 HYPERVISOR: exec_cmd: vm start Ghost 
+Aug 25 19:38:08.463 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Aug 25 19:38:09.485 VM: VM Ghost shutdown.
+Aug 25 19:38:09.485 VM: VM Ghost destroyed.
+Aug 25 19:38:19.748 HYPERVISOR: exec_cmd: vm get_status PUNCAKTERANG 
+Aug 25 19:38:19.754 HYPERVISOR: exec_cmd: vm set_config PUNCAKTERANG configs\i4_startup-config.cfg 
+Aug 25 19:38:19.755 HYPERVISOR: exec_cmd: vm start PUNCAKTERANG 
+Aug 25 19:38:51.186 HYPERVISOR: exec_cmd: vm extract_config PUNCAKTERANG 
+Aug 25 20:06:10.303 HYPERVISOR: exec_cmd: vm get_status PUNCAKTERANG 
+Aug 25 20:06:10.304 HYPERVISOR: exec_cmd: vm stop PUNCAKTERANG 
+Aug 25 20:06:10.746 VM: VM PUNCAKTERANG shutdown.
+Aug 25 20:06:10.754 HYPERVISOR: exec_cmd: vm extract_config PUNCAKTERANG 
+Aug 25 20:06:54.739 HYPERVISOR: Stopped.
+Aug 25 20:06:54.739 VM: VM PUNCAKTERANG destroyed.
+Aug 25 20:06:54.764 GENERAL: reset done.

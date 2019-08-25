@@ -1,0 +1,63 @@
+Aug 25 19:30:23.452 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 19:30:23.456 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 5715.
+Aug 25 19:30:23.500 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 19:30:23.501 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips 
+Aug 25 19:30:23.582 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips
+Aug 25 19:30:23.582 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\d8e2eca6-9ba6-46e5-b295-f06fac0c09f2 
+Aug 25 19:30:23.584 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\d8e2eca6-9ba6-46e5-b295-f06fac0c09f2
+Aug 25 19:30:23.586 HYPERVISOR: exec_cmd: vm create PALEMBANG 1 c3600 
+Aug 25 19:30:23.592 VM: VM PALEMBANG created.
+Aug 25 19:30:23.593 HYPERVISOR: exec_cmd: vm set_con_tcp_port PALEMBANG 5026 
+Aug 25 19:30:23.594 HYPERVISOR: exec_cmd: c3600 get_mac_addr PALEMBANG 
+Aug 25 19:30:23.594 HYPERVISOR: exec_cmd: c3600 set_chassis PALEMBANG 3660 
+Aug 25 19:30:23.595 HYPERVISOR: exec_cmd: vm set_disk0 PALEMBANG 12 
+Aug 25 19:30:23.596 HYPERVISOR: exec_cmd: vm set_exec_area PALEMBANG 64 
+Aug 25 19:30:23.598 HYPERVISOR: exec_cmd: vm get_status PALEMBANG 
+Aug 25 19:30:23.599 HYPERVISOR: exec_cmd: vm set_idle_pc PALEMBANG 0x605f0ccc 
+Aug 25 19:30:23.616 HYPERVISOR: exec_cmd: vm set_ios PALEMBANG C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 25 19:30:23.617 HYPERVISOR: exec_cmd: c3600 set_mac_addr PALEMBANG cc01.08e0.0000 
+Aug 25 19:30:23.618 HYPERVISOR: exec_cmd: vm set_nvram PALEMBANG 256 
+Aug 25 19:30:23.618 HYPERVISOR: exec_cmd: vm set_ram PALEMBANG 192 
+Aug 25 19:30:23.619 HYPERVISOR: exec_cmd: vm get_status PALEMBANG 
+Aug 25 19:30:23.620 HYPERVISOR: exec_cmd: vm slot_add_binding PALEMBANG 1 0 NM-16ESW 
+Aug 25 19:30:23.621 HYPERVISOR: exec_cmd: vm get_status PALEMBANG 
+Aug 25 19:30:23.621 HYPERVISOR: exec_cmd: vm slot_add_binding PALEMBANG 2 0 NM-1FE-TX 
+Aug 25 19:30:23.622 HYPERVISOR: exec_cmd: vm get_status PALEMBANG 
+Aug 25 19:30:23.622 HYPERVISOR: exec_cmd: vm slot_add_binding PALEMBANG 3 0 NM-1FE-TX 
+Aug 25 19:30:23.623 HYPERVISOR: exec_cmd: vm get_status PALEMBANG 
+Aug 25 19:30:23.623 HYPERVISOR: exec_cmd: vm slot_add_binding PALEMBANG 4 0 NM-1FE-TX 
+Aug 25 19:30:40.348 HYPERVISOR: exec_cmd: nio create_udp udp-49720c78-bcd6-4e5a-ae47-05ccc31a8e08 10004 127.0.0.1 10005 
+Aug 25 19:30:40.669 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PALEMBANG 0 0 udp-49720c78-bcd6-4e5a-ae47-05ccc31a8e08 
+Aug 25 19:30:40.669 HYPERVISOR: exec_cmd: vm get_status PALEMBANG 
+Aug 25 19:30:40.853 HYPERVISOR: exec_cmd: nio create_udp udp-805bae88-feec-4bd8-9489-d21c85c301b4 10008 127.0.0.1 10009 
+Aug 25 19:30:40.861 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PALEMBANG 0 1 udp-805bae88-feec-4bd8-9489-d21c85c301b4 
+Aug 25 19:30:40.861 HYPERVISOR: exec_cmd: vm get_status PALEMBANG 
+Aug 25 19:30:43.118 HYPERVISOR: exec_cmd: nio create_udp udp-562f65b2-0d91-4caf-b16e-6991be2efff2 10042 127.0.0.1 10043 
+Aug 25 19:30:43.123 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PALEMBANG 2 0 udp-562f65b2-0d91-4caf-b16e-6991be2efff2 
+Aug 25 19:30:43.124 HYPERVISOR: exec_cmd: vm get_status PALEMBANG 
+Aug 25 19:38:03.657 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Aug 25 19:38:03.663 VM: VM Ghost created.
+Aug 25 19:38:03.665 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 25 19:38:03.666 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Aug 25 19:38:03.667 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\c3660-a3jk9s-mz.124-19.image-192.ghost' 
+Aug 25 19:38:03.668 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Aug 25 19:38:03.669 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 25 19:38:03.670 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Aug 25 19:38:03.671 HYPERVISOR: exec_cmd: vm start Ghost 
+Aug 25 19:38:04.334 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Aug 25 19:38:04.514 VM: VM Ghost shutdown.
+Aug 25 19:38:04.514 VM: VM Ghost destroyed.
+Aug 25 19:38:04.534 HYPERVISOR: exec_cmd: vm get_status PALEMBANG 
+Aug 25 19:38:04.536 HYPERVISOR: exec_cmd: vm set_config PALEMBANG configs\i1_startup-config.cfg 
+Aug 25 19:38:04.536 HYPERVISOR: exec_cmd: vm start PALEMBANG 
+Aug 25 19:38:40.433 HYPERVISOR: exec_cmd: vm extract_config PALEMBANG 
+Aug 25 19:58:51.202 HYPERVISOR: exec_cmd: nio bind_filter udp-805bae88-feec-4bd8-9489-d21c85c301b4 2 capture 
+Aug 25 19:58:51.203 HYPERVISOR: exec_cmd: nio setup_filter udp-805bae88-feec-4bd8-9489-d21c85c301b4 2 en10mb C:\Users\Agiya\GNS3\projects\kantorospf\tmp\captures\PALEMBANG_FastEthernet01_to_JAYAPERMAI_FastEthernet00.pcap 
+Aug 25 20:06:09.911 HYPERVISOR: exec_cmd: vm get_status PALEMBANG 
+Aug 25 20:06:09.913 HYPERVISOR: exec_cmd: vm stop PALEMBANG 
+Aug 25 20:06:10.305 VM: VM PALEMBANG shutdown.
+Aug 25 20:06:10.319 HYPERVISOR: exec_cmd: vm extract_config PALEMBANG 
+Aug 25 20:06:10.346 HYPERVISOR: exec_cmd: nio unbind_filter udp-805bae88-feec-4bd8-9489-d21c85c301b4 2 
+Aug 25 20:06:54.742 HYPERVISOR: Stopped.
+Aug 25 20:06:54.742 VM: VM PALEMBANG destroyed.
+Aug 25 20:06:54.800 GENERAL: reset done.

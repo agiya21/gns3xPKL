@@ -1,0 +1,66 @@
+Aug 25 19:30:24.442 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 25 19:30:24.446 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 5725.
+Aug 25 19:30:24.850 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 25 19:30:24.850 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips 
+Aug 25 19:30:24.851 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips
+Aug 25 19:30:24.851 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\8313df01-c3dd-49a3-9d9e-55f84f6195e1 
+Aug 25 19:30:24.852 GENERAL: working_dir=C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\8313df01-c3dd-49a3-9d9e-55f84f6195e1
+Aug 25 19:30:24.853 HYPERVISOR: exec_cmd: vm create JAYAPERMAI 3 c3600 
+Aug 25 19:30:24.859 VM: VM JAYAPERMAI created.
+Aug 25 19:30:24.859 HYPERVISOR: exec_cmd: vm set_con_tcp_port JAYAPERMAI 5028 
+Aug 25 19:30:24.860 HYPERVISOR: exec_cmd: c3600 get_mac_addr JAYAPERMAI 
+Aug 25 19:30:24.860 HYPERVISOR: exec_cmd: c3600 set_chassis JAYAPERMAI 3660 
+Aug 25 19:30:24.860 HYPERVISOR: exec_cmd: vm set_disk0 JAYAPERMAI 12 
+Aug 25 19:30:24.861 HYPERVISOR: exec_cmd: vm set_exec_area JAYAPERMAI 64 
+Aug 25 19:30:24.861 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 19:30:24.862 HYPERVISOR: exec_cmd: vm set_idle_pc JAYAPERMAI 0x605f0ccc 
+Aug 25 19:30:24.863 HYPERVISOR: exec_cmd: vm set_ios JAYAPERMAI C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 25 19:30:24.864 HYPERVISOR: exec_cmd: c3600 set_mac_addr JAYAPERMAI cc03.1748.0000 
+Aug 25 19:30:24.865 HYPERVISOR: exec_cmd: vm set_nvram JAYAPERMAI 256 
+Aug 25 19:30:24.867 HYPERVISOR: exec_cmd: vm set_ram JAYAPERMAI 192 
+Aug 25 19:30:24.868 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 19:30:24.869 HYPERVISOR: exec_cmd: vm slot_add_binding JAYAPERMAI 1 0 NM-16ESW 
+Aug 25 19:30:24.870 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 19:30:24.871 HYPERVISOR: exec_cmd: vm slot_add_binding JAYAPERMAI 2 0 NM-1FE-TX 
+Aug 25 19:30:24.872 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 19:30:24.872 HYPERVISOR: exec_cmd: vm slot_add_binding JAYAPERMAI 3 0 NM-1FE-TX 
+Aug 25 19:30:24.873 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 19:30:24.873 HYPERVISOR: exec_cmd: vm slot_add_binding JAYAPERMAI 4 0 NM-1FE-TX 
+Aug 25 19:30:40.882 HYPERVISOR: exec_cmd: nio create_udp udp-6244b1e6-d78e-40e1-a3ef-44ea19f138b4 10010 127.0.0.1 10011 
+Aug 25 19:30:41.178 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JAYAPERMAI 0 0 udp-6244b1e6-d78e-40e1-a3ef-44ea19f138b4 
+Aug 25 19:30:41.179 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 19:30:41.382 HYPERVISOR: exec_cmd: nio create_udp udp-22287609-cc39-4749-94af-9d83260f26ad 10016 127.0.0.1 10017 
+Aug 25 19:30:41.392 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JAYAPERMAI 0 1 udp-22287609-cc39-4749-94af-9d83260f26ad 
+Aug 25 19:30:41.393 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 19:30:41.791 HYPERVISOR: exec_cmd: nio create_udp udp-12ed61ee-46e5-4ffc-801c-53da0b13e4ec 10024 127.0.0.1 10025 
+Aug 25 19:30:41.802 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JAYAPERMAI 2 0 udp-12ed61ee-46e5-4ffc-801c-53da0b13e4ec 
+Aug 25 19:30:41.802 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 19:30:41.987 HYPERVISOR: exec_cmd: nio create_udp udp-623bfc3e-270b-4e9a-aaa8-506b1fa14183 10028 127.0.0.1 10029 
+Aug 25 19:30:41.992 HYPERVISOR: exec_cmd: vm slot_add_nio_binding JAYAPERMAI 3 0 udp-623bfc3e-270b-4e9a-aaa8-506b1fa14183 
+Aug 25 19:30:41.992 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 19:38:01.689 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Aug 25 19:38:01.696 VM: VM Ghost created.
+Aug 25 19:38:01.697 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Agiya/GNS3/images/IOS/c3660-a3jk9s-mz.124-19.image 
+Aug 25 19:38:01.697 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Aug 25 19:38:01.698 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Agiya\GNS3\projects\kantorospf\project-files\dynamips\c3660-a3jk9s-mz.124-19.image-192.ghost' 
+Aug 25 19:38:01.699 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Aug 25 19:38:01.700 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 25 19:38:01.852 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Aug 25 19:38:01.853 HYPERVISOR: exec_cmd: vm start Ghost 
+Aug 25 19:38:03.171 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Aug 25 19:38:03.249 VM: VM Ghost shutdown.
+Aug 25 19:38:03.249 VM: VM Ghost destroyed.
+Aug 25 19:38:03.267 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 19:38:03.274 HYPERVISOR: exec_cmd: vm set_config JAYAPERMAI configs\i3_startup-config.cfg 
+Aug 25 19:38:03.274 HYPERVISOR: exec_cmd: vm start JAYAPERMAI 
+Aug 25 19:38:34.947 HYPERVISOR: exec_cmd: vm extract_config JAYAPERMAI 
+Aug 25 19:55:38.420 HYPERVISOR: exec_cmd: nio bind_filter udp-623bfc3e-270b-4e9a-aaa8-506b1fa14183 2 capture 
+Aug 25 19:55:38.421 HYPERVISOR: exec_cmd: nio setup_filter udp-623bfc3e-270b-4e9a-aaa8-506b1fa14183 2 en10mb C:\Users\Agiya\GNS3\projects\kantorospf\tmp\captures\JAYAPERMAI_FastEthernet30_to_PUNCAKTERANG_FastEthernet00.pcap 
+Aug 25 19:59:29.353 HYPERVISOR: exec_cmd: nio unbind_filter udp-623bfc3e-270b-4e9a-aaa8-506b1fa14183 2 
+Aug 25 20:06:09.912 HYPERVISOR: exec_cmd: vm get_status JAYAPERMAI 
+Aug 25 20:06:09.914 HYPERVISOR: exec_cmd: vm stop JAYAPERMAI 
+Aug 25 20:06:10.334 VM: VM JAYAPERMAI shutdown.
+Aug 25 20:06:10.339 HYPERVISOR: exec_cmd: vm extract_config JAYAPERMAI 
+Aug 25 20:06:54.742 HYPERVISOR: Stopped.
+Aug 25 20:06:54.742 VM: VM JAYAPERMAI destroyed.
+Aug 25 20:06:54.802 GENERAL: reset done.
