@@ -75,17 +75,17 @@
             {
                 "drawing_id": "44e2a5f3-a4e6-4299-a9f4-3428efc707ae",
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"84\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.1.0/30</text></svg>",
-                "x": -639,
-                "y": 94,
+                "svg": "<svg height=\"21\" width=\"67\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.1.0/30</text></svg>",
+                "x": -664,
+                "y": 36,
                 "z": 1
             },
             {
                 "drawing_id": "08f55cd4-c254-4a0b-aaf5-4317c1a4af18",
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"84\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.2.0/30</text></svg>",
-                "x": 4,
-                "y": 60,
+                "svg": "<svg height=\"21\" width=\"67\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.0.2.0/30</text></svg>",
+                "x": -47,
+                "y": 30,
                 "z": 1
             },
             {
@@ -115,17 +115,17 @@
             {
                 "drawing_id": "bd2c1dc5-2b77-4824-ad86-d574d29bd7ad",
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"92\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lo0: 10.1.0.1</text></svg>",
-                "x": -726,
-                "y": 268,
+                "svg": "<svg height=\"21\" width=\"73\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lo0: 10.1.0.1</text></svg>",
+                "x": -751,
+                "y": 210,
                 "z": 1
             },
             {
                 "drawing_id": "12186189-7014-4b16-9c68-d938cb21247f",
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"92\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lo0: 10.0.3.1</text></svg>",
-                "x": -4,
-                "y": 211,
+                "svg": "<svg height=\"21\" width=\"73\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lo0: 10.0.3.1</text></svg>",
+                "x": -39,
+                "y": 176,
                 "z": 1
             }
         ],
@@ -320,7 +320,7 @@
         "nodes": [
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5009,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -374,7 +374,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5001,
+                "console": 5010,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -428,7 +428,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5002,
+                "console": 5011,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -482,7 +482,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5003,
+                "console": 5012,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -530,13 +530,13 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": -630,
-                "y": 263,
+                "x": -655,
+                "y": 205,
                 "z": 0
             },
             {
                 "compute_id": "local",
-                "console": 5004,
+                "console": 5013,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -584,13 +584,13 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": 96,
-                "y": 207,
+                "x": 44,
+                "y": 177,
                 "z": 0
             },
             {
                 "compute_id": "local",
-                "console": 5005,
+                "console": 5014,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -644,7 +644,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5006,
+                "console": 5015,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -692,8 +692,80 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": 367,
-                "y": 17,
+                "x": 225,
+                "y": 33,
+                "z": 0
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_type": null,
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "PC",
+                    "x": 68,
+                    "y": -25
+                },
+                "name": "PC",
+                "node_id": "566cb9f1-7557-4c0e-936d-07c074f26dfc",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Bluetooth Network Connection",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 2",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 3",
+                            "special": false,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "Ethernet 2",
+                            "name": "Ethernet 2",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "Ethernet 3",
+                            "name": "Ethernet 3",
+                            "port_number": 1,
+                            "type": "ethernet"
+                        }
+                    ]
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "width": 159,
+                "x": -251,
+                "y": 203,
                 "z": 0
             }
         ]
@@ -701,5 +773,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.1.21",
-    "zoom": 50
+    "zoom": 71
 }
