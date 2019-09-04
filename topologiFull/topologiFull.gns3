@@ -722,7 +722,12 @@
                             "type": "ethernet"
                         },
                         {
-                            "name": "Ethernet",
+                            "name": "Bluetooth Network Connection",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 2",
                             "special": false,
                             "type": "ethernet"
                         },
@@ -737,12 +742,7 @@
                             "type": "ethernet"
                         },
                         {
-                            "name": "Ethernet 2",
-                            "special": false,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "Ethernet 5",
+                            "name": "Ethernet 3",
                             "special": false,
                             "type": "ethernet"
                         }
@@ -765,7 +765,7 @@
                 "symbol": ":/symbols/cloud.svg",
                 "width": 159,
                 "x": -251,
-                "y": 203,
+                "y": 189,
                 "z": 0
             }
         ]
@@ -773,5 +773,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.1.21",
-    "zoom": 71
+    "zoom": 50
 }
