@@ -722,12 +722,7 @@
                             "type": "ethernet"
                         },
                         {
-                            "name": "Bluetooth Network Connection",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "Ethernet 2",
+                            "name": "Ethernet",
                             "special": false,
                             "type": "ethernet"
                         },
@@ -742,7 +737,12 @@
                             "type": "ethernet"
                         },
                         {
-                            "name": "Ethernet 3",
+                            "name": "Ethernet 2",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet 5",
                             "special": false,
                             "type": "ethernet"
                         }
